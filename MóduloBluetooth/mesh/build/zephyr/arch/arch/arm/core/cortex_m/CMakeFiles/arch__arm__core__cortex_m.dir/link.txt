@@ -1,0 +1,2 @@
+ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libarch__arm__core__cortex_m.a  CMakeFiles/arch__arm__core__cortex_m.dir/vector_table.S.obj CMakeFiles/arch__arm__core__cortex_m.dir/reset.S.obj CMakeFiles/arch__arm__core__cortex_m.dir/nmi_on_reset.S.obj CMakeFiles/arch__arm__core__cortex_m.dir/prep_c.c.obj CMakeFiles/arch__arm__core__cortex_m.dir/scb.c.obj CMakeFiles/arch__arm__core__cortex_m.dir/nmi.c.obj CMakeFiles/arch__arm__core__cortex_m.dir/exc_manage.c.obj
+ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libarch__arm__core__cortex_m.a
