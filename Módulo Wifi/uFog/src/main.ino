@@ -1,8 +1,7 @@
 #include <ESP8266WiFi.h>
-char *ssid = "iPhone";
-char *password = "17181923";
-// char *ssid = "UFAL";
-// char *password = NULL;
+
+ char *ssid = "UFAL";
+ char *password = NULL;
 char *name = "ESP";
 #define DEBUG if(1)
 WiFiServer server(80);
