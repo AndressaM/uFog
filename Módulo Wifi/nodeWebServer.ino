@@ -1,7 +1,8 @@
 #include <ESP8266WiFi.h>
-
- char *ssid = "UFAL";
- char *password = NULL;
+//char *ssid = "IEEERAS";
+//char *password = "soolucassabe";
+char *ssid = "UFAL";
+char *password = NULL;
 char *name = "ESP";
 #define DEBUG if(1)
 WiFiServer server(80);
@@ -13,28 +14,28 @@ void setup() {
   pinMode(2, OUTPUT);
 }
 
-void initServer(){
-    server.begin();
-    DEBUG Serial.println("Servidor inicializado");
+void initServer() {
+  server.begin();
+  DEBUG Serial.println("Servidor inicializado");
 }
 
-bool connectWiFi(){
-    DEBUG Serial.print("Connecting to ");
-    DEBUG Serial.println(ssid);
-    WiFi.hostname(name);
-    WiFi.begin(ssid, password);
-    int count = 0;
-    while (WiFi.status() != WL_CONNECTED && count < 20 ) {
-      delay(500);      count++;
-    }
-    if (WiFi.status() == WL_CONNECTED) {
-        DEBUG Serial.println("WiFi connected");
-        Serial.println(WiFi.localIP());
-        initServer();
-        return true;
-    }
-    DEBUG Serial.println("WiFi disconnected");
-    return false;
+bool connectWiFi() {
+  DEBUG Serial.print("Connecting to ");
+  DEBUG Serial.println(ssid);
+  WiFi.hostname(name);
+  WiFi.begin(ssid, password);
+  int count = 0;
+  while (WiFi.status() != WL_CONNECTED && count < 20 ) {
+    delay(500);      count++;
+  }
+  if (WiFi.status() == WL_CONNECTED) {
+    DEBUG Serial.println("WiFi connected");
+    Serial.println(WiFi.localIP());
+    initServer();
+    return true;
+  }
+  DEBUG Serial.println("WiFi disconnected");
+  return false;
 }
 
 
@@ -45,7 +46,7 @@ void loop() {
   }
 
   DEBUG Serial.println("new client");
-  while(!client.available()){
+  while (!client.available()) {
     delay(1);
   }
 
