@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/ext/lib/crypto/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/ext/lib/encoding/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/ext/lib/ipc/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/ext/lib/mgmt/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/ext/lib/crypto/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/ext/lib/encoding/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/ext/lib/ipc/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/ext/lib/mgmt/cmake_install.cmake")
 
 endif()
 

@@ -4,33 +4,33 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/horacio/zephyrproject/zephyr/soc/arm/nordic_nrf/nrf52/linker.ld" "/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/linker_pass_final.cmd"
+  "/home/horacio/zephyrproject/zephyr/soc/arm/nordic_nrf/nrf52/linker.ld" "/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/linker_pass_final.cmd"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/horacio/zephyrproject/zephyr/kernel/include"
-  "/home/horacio/zephyrproject/zephyr/arch/arm/include"
-  "/home/horacio/zephyrproject/zephyr/include"
-  "/home/horacio/zephyrproject/zephyr/include/drivers"
+  "../../../../../../kernel/include"
+  "../../../../../../arch/arm/include"
+  "../../../../../../include"
+  "../../../../../../include/drivers"
   "zephyr/include/generated"
-  "/home/horacio/zephyrproject/zephyr/soc/arm/nordic_nrf/nrf52"
-  "/home/horacio/zephyrproject/zephyr/soc/arm/nordic_nrf/include"
+  "../../../../../../soc/arm/nordic_nrf/nrf52"
+  "../../../../../../soc/arm/nordic_nrf/include"
   "/opt/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/8.3.0/include"
   "/opt/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/8.3.0/include-fixed"
-  "/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include"
-  "/home/horacio/zephyrproject/zephyr/ext/lib/crypto/tinycrypt/include"
-  "/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include"
-  "/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx"
-  "/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/drivers/include"
-  "/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/hal"
-  "/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk"
-  "/home/horacio/zephyrproject/zephyr/ext/hal/nordic/."
-  "/home/horacio/zephyrproject/zephyr/ext/debug/segger/rtt"
-  "/home/horacio/zephyrproject/zephyr/subsys/settings/include"
-  "/home/horacio/zephyrproject/zephyr/subsys/bluetooth"
-  "/home/horacio/zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/nordic"
+  "../../../../../../lib/libc/minimal/include"
+  "../../../../../../ext/lib/crypto/tinycrypt/include"
+  "../../../../../../ext/hal/cmsis/Include"
+  "../../../../../../ext/hal/nordic/nrfx"
+  "../../../../../../ext/hal/nordic/nrfx/drivers/include"
+  "../../../../../../ext/hal/nordic/nrfx/hal"
+  "../../../../../../ext/hal/nordic/nrfx/mdk"
+  "../../../../../../ext/hal/nordic/."
+  "../../../../../../ext/debug/segger/rtt"
+  "../../../../../../subsys/settings/include"
+  "../../../../../../subsys/bluetooth"
+  "../../../../../../subsys/bluetooth/controller/ll_sw/nordic"
   )
 
 # Targets to which this target links.

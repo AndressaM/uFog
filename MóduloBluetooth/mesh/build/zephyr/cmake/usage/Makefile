@@ -48,10 +48,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/usage/CMakeFiles/progress.marks
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/usage/CMakeFiles/progress.marks
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/clean
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 zephyr/cmake/usage/CMakeFiles/usage.dir/rule:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/CMakeFiles/usage.dir/rule
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/CMakeFiles/usage.dir/rule
 .PHONY : zephyr/cmake/usage/CMakeFiles/usage.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ usage: zephyr/cmake/usage/CMakeFiles/usage.dir/rule
 
 # fast build rule for target.
 usage/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/cmake/usage/CMakeFiles/usage.dir/build.make zephyr/cmake/usage/CMakeFiles/usage.dir/build
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/cmake/usage/CMakeFiles/usage.dir/build.make zephyr/cmake/usage/CMakeFiles/usage.dir/build
 .PHONY : usage/fast
 
 # Help Target
@@ -145,6 +145,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

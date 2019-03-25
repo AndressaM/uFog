@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Include any dependencies generated for this target.
 include zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/depend.make
@@ -58,17 +58,17 @@ include zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/progress.make
 include zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/flags.make
 
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/flags.make
-zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj: /home/horacio/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj   -c /home/horacio/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c
+zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj: ../../../../../../drivers/serial/uart_nrfx_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj   -c /home/horacio/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c
 
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c > CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c > CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.i
 
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c -o CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c -o CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.s
 
 # Object files for target drivers__serial
 drivers__serial_OBJECTS = \
@@ -80,9 +80,9 @@ drivers__serial_EXTERNAL_OBJECTS =
 zephyr/drivers/serial/libdrivers__serial.a: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj
 zephyr/drivers/serial/libdrivers__serial.a: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make
 zephyr/drivers/serial/libdrivers__serial.a: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdrivers__serial.a"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial && $(CMAKE_COMMAND) -P CMakeFiles/drivers__serial.dir/cmake_clean_target.cmake
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drivers__serial.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdrivers__serial.a"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial && $(CMAKE_COMMAND) -P CMakeFiles/drivers__serial.dir/cmake_clean_target.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drivers__serial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build: zephyr/drivers/serial/libdrivers__serial.a
@@ -90,10 +90,10 @@ zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build: zephyr/drivers/seria
 .PHONY : zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build
 
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial && $(CMAKE_COMMAND) -P CMakeFiles/drivers__serial.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial && $(CMAKE_COMMAND) -P CMakeFiles/drivers__serial.dir/cmake_clean.cmake
 .PHONY : zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/clean
 
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr/drivers/serial /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/drivers/serial /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/depend
 

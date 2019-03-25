@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/horacio/zephyrproject/zephyr")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

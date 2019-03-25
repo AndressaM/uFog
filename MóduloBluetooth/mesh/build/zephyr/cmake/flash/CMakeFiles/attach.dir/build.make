@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Utility rule file for attach.
 
@@ -57,7 +57,7 @@ zephyr/cmake/flash/CMakeFiles/attach: zephyr/zephyr.elf
 zephyr/cmake/flash/CMakeFiles/attach: zephyr/zephyr.elf
 zephyr/cmake/flash/CMakeFiles/attach: zephyr/zephyr.elf
 zephyr/cmake/flash/CMakeFiles/attach: zephyr/zephyr.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Debugging nrf52_pca10040"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Debugging nrf52_pca10040"
 	/home/horacio/cmake-3.13.4/bin/cmake -E env /home/horacio/.local/bin/west attach --skip-rebuild
 
 attach: zephyr/cmake/flash/CMakeFiles/attach
@@ -71,10 +71,10 @@ zephyr/cmake/flash/CMakeFiles/attach.dir/build: attach
 .PHONY : zephyr/cmake/flash/CMakeFiles/attach.dir/build
 
 zephyr/cmake/flash/CMakeFiles/attach.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/flash && $(CMAKE_COMMAND) -P CMakeFiles/attach.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/flash && $(CMAKE_COMMAND) -P CMakeFiles/attach.dir/cmake_clean.cmake
 .PHONY : zephyr/cmake/flash/CMakeFiles/attach.dir/clean
 
 zephyr/cmake/flash/CMakeFiles/attach.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr/cmake/flash /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/flash /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/flash/CMakeFiles/attach.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/cmake/flash /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/flash /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/flash/CMakeFiles/attach.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/cmake/flash/CMakeFiles/attach.dir/depend
 

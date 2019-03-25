@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/scripts/linker.ld
+../../../../../../include/arch/arm/cortex_m/scripts/linker.ld
 autoconf.h
 -
 linker/sections.h
@@ -58,27 +58,27 @@ linker/intlist.ld
 linker/debug-sections.ld
 -
 
-/home/horacio/zephyrproject/zephyr/include/generated_dts_board.h
+../../../../../../include/generated_dts_board.h
 generated_dts_board_unfixed.h
 -
 generated_dts_board_fixups.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/linker/common-ram.ld
+../../../../../../include/linker/common-ram.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/common-rom.ld
+../../../../../../include/linker/common-rom.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/debug-sections.ld
+../../../../../../include/linker/debug-sections.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/intlist.ld
+../../../../../../include/linker/intlist.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/kobject-rom.ld
+../../../../../../include/linker/kobject-rom.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/kobject-text.ld
+../../../../../../include/linker/kobject-text.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/kobject.ld
+../../../../../../include/linker/kobject.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/linker-defs.h
+../../../../../../include/linker/linker-defs.h
 toolchain.h
 -
 linker/sections.h
@@ -90,37 +90,37 @@ offsets.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/linker/linker-tool-gcc.h
+../../../../../../include/linker/linker-tool-gcc.h
 
-/home/horacio/zephyrproject/zephyr/include/linker/linker-tool.h
+../../../../../../include/linker/linker-tool.h
 linker/linker-tool-gcc.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/linker/priv_stacks-noinit.ld
+../../../../../../include/linker/priv_stacks-noinit.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/priv_stacks-rom.ld
+../../../../../../include/linker/priv_stacks-rom.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/priv_stacks-text.ld
+../../../../../../include/linker/priv_stacks-text.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/priv_stacks.ld
+../../../../../../include/linker/priv_stacks.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/rel-sections.ld
+../../../../../../include/linker/rel-sections.ld
 
-/home/horacio/zephyrproject/zephyr/include/linker/section_tags.h
+../../../../../../include/linker/section_tags.h
 toolchain.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/linker/sections.h
+../../../../../../include/linker/sections.h
 linker/section_tags.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/util.h
+../../../../../../include/misc/util.h
 zephyr/types.h
 -
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/toolchain.h
+../../../../../../include/toolchain.h
 toolchain/xcc.h
 -
 toolchain/gcc.h
@@ -128,15 +128,15 @@ toolchain/gcc.h
 toolchain/other.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/toolchain/common.h
+../../../../../../include/toolchain/common.h
 
-/home/horacio/zephyrproject/zephyr/include/toolchain/gcc.h
+../../../../../../include/toolchain/gcc.h
 toolchain/common.h
 -
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/toolchain/xcc.h
+../../../../../../include/toolchain/xcc.h
 toolchain/gcc.h
 -
 stdbool.h
@@ -144,7 +144,7 @@ stdbool.h
 xtensa/config/core.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/zephyr/types.h
+../../../../../../include/zephyr/types.h
 stdint.h
 -
 

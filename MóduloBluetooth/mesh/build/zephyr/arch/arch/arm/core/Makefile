@@ -48,10 +48,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/CMakeFiles/progress.marks
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/CMakeFiles/progress.marks
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/clean
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule
 .PHONY : zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ arch__arm__core: zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule
 
 # fast build rule for target.
 arch__arm__core/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build
 .PHONY : arch__arm__core/fast
 
 cpu_idle.obj: cpu_idle.S.obj
@@ -131,7 +131,7 @@ cpu_idle.obj: cpu_idle.S.obj
 
 # target to build an object file
 cpu_idle.S.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/cpu_idle.S.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/cpu_idle.S.obj
 .PHONY : cpu_idle.S.obj
 
 exc_exit.obj: exc_exit.S.obj
@@ -140,7 +140,7 @@ exc_exit.obj: exc_exit.S.obj
 
 # target to build an object file
 exc_exit.S.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/exc_exit.S.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/exc_exit.S.obj
 .PHONY : exc_exit.S.obj
 
 fatal.obj: fatal.c.obj
@@ -149,7 +149,7 @@ fatal.obj: fatal.c.obj
 
 # target to build an object file
 fatal.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fatal.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fatal.c.obj
 .PHONY : fatal.c.obj
 
 fatal.i: fatal.c.i
@@ -158,7 +158,7 @@ fatal.i: fatal.c.i
 
 # target to preprocess a source file
 fatal.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fatal.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fatal.c.i
 .PHONY : fatal.c.i
 
 fatal.s: fatal.c.s
@@ -167,7 +167,7 @@ fatal.s: fatal.c.s
 
 # target to generate assembly for a file
 fatal.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fatal.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fatal.c.s
 .PHONY : fatal.c.s
 
 fault.obj: fault.c.obj
@@ -176,7 +176,7 @@ fault.obj: fault.c.obj
 
 # target to build an object file
 fault.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault.c.obj
 .PHONY : fault.c.obj
 
 fault.i: fault.c.i
@@ -185,7 +185,7 @@ fault.i: fault.c.i
 
 # target to preprocess a source file
 fault.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault.c.i
 .PHONY : fault.c.i
 
 fault.s: fault.c.s
@@ -194,7 +194,7 @@ fault.s: fault.c.s
 
 # target to generate assembly for a file
 fault.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault.c.s
 .PHONY : fault.c.s
 
 fault_s.obj: fault_s.S.obj
@@ -203,7 +203,7 @@ fault_s.obj: fault_s.S.obj
 
 # target to build an object file
 fault_s.S.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault_s.S.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/fault_s.S.obj
 .PHONY : fault_s.S.obj
 
 irq_init.obj: irq_init.c.obj
@@ -212,7 +212,7 @@ irq_init.obj: irq_init.c.obj
 
 # target to build an object file
 irq_init.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_init.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_init.c.obj
 .PHONY : irq_init.c.obj
 
 irq_init.i: irq_init.c.i
@@ -221,7 +221,7 @@ irq_init.i: irq_init.c.i
 
 # target to preprocess a source file
 irq_init.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_init.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_init.c.i
 .PHONY : irq_init.c.i
 
 irq_init.s: irq_init.c.s
@@ -230,7 +230,7 @@ irq_init.s: irq_init.c.s
 
 # target to generate assembly for a file
 irq_init.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_init.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_init.c.s
 .PHONY : irq_init.c.s
 
 irq_manage.obj: irq_manage.c.obj
@@ -239,7 +239,7 @@ irq_manage.obj: irq_manage.c.obj
 
 # target to build an object file
 irq_manage.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_manage.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_manage.c.obj
 .PHONY : irq_manage.c.obj
 
 irq_manage.i: irq_manage.c.i
@@ -248,7 +248,7 @@ irq_manage.i: irq_manage.c.i
 
 # target to preprocess a source file
 irq_manage.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_manage.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_manage.c.i
 .PHONY : irq_manage.c.i
 
 irq_manage.s: irq_manage.c.s
@@ -257,7 +257,7 @@ irq_manage.s: irq_manage.c.s
 
 # target to generate assembly for a file
 irq_manage.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_manage.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/irq_manage.c.s
 .PHONY : irq_manage.c.s
 
 isr_wrapper.obj: isr_wrapper.S.obj
@@ -266,7 +266,7 @@ isr_wrapper.obj: isr_wrapper.S.obj
 
 # target to build an object file
 isr_wrapper.S.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/isr_wrapper.S.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/isr_wrapper.S.obj
 .PHONY : isr_wrapper.S.obj
 
 swap.obj: swap.c.obj
@@ -275,7 +275,7 @@ swap.obj: swap.c.obj
 
 # target to build an object file
 swap.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap.c.obj
 .PHONY : swap.c.obj
 
 swap.i: swap.c.i
@@ -284,7 +284,7 @@ swap.i: swap.c.i
 
 # target to preprocess a source file
 swap.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap.c.i
 .PHONY : swap.c.i
 
 swap.s: swap.c.s
@@ -293,7 +293,7 @@ swap.s: swap.c.s
 
 # target to generate assembly for a file
 swap.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap.c.s
 .PHONY : swap.c.s
 
 swap_helper.obj: swap_helper.S.obj
@@ -302,7 +302,7 @@ swap_helper.obj: swap_helper.S.obj
 
 # target to build an object file
 swap_helper.S.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap_helper.S.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/swap_helper.S.obj
 .PHONY : swap_helper.S.obj
 
 sys_fatal_error_handler.obj: sys_fatal_error_handler.c.obj
@@ -311,7 +311,7 @@ sys_fatal_error_handler.obj: sys_fatal_error_handler.c.obj
 
 # target to build an object file
 sys_fatal_error_handler.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/sys_fatal_error_handler.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/sys_fatal_error_handler.c.obj
 .PHONY : sys_fatal_error_handler.c.obj
 
 sys_fatal_error_handler.i: sys_fatal_error_handler.c.i
@@ -320,7 +320,7 @@ sys_fatal_error_handler.i: sys_fatal_error_handler.c.i
 
 # target to preprocess a source file
 sys_fatal_error_handler.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/sys_fatal_error_handler.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/sys_fatal_error_handler.c.i
 .PHONY : sys_fatal_error_handler.c.i
 
 sys_fatal_error_handler.s: sys_fatal_error_handler.c.s
@@ -329,7 +329,7 @@ sys_fatal_error_handler.s: sys_fatal_error_handler.c.s
 
 # target to generate assembly for a file
 sys_fatal_error_handler.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/sys_fatal_error_handler.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/sys_fatal_error_handler.c.s
 .PHONY : sys_fatal_error_handler.c.s
 
 thread.obj: thread.c.obj
@@ -338,7 +338,7 @@ thread.obj: thread.c.obj
 
 # target to build an object file
 thread.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread.c.obj
 .PHONY : thread.c.obj
 
 thread.i: thread.c.i
@@ -347,7 +347,7 @@ thread.i: thread.c.i
 
 # target to preprocess a source file
 thread.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread.c.i
 .PHONY : thread.c.i
 
 thread.s: thread.c.s
@@ -356,7 +356,7 @@ thread.s: thread.c.s
 
 # target to generate assembly for a file
 thread.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread.c.s
 .PHONY : thread.c.s
 
 thread_abort.obj: thread_abort.c.obj
@@ -365,7 +365,7 @@ thread_abort.obj: thread_abort.c.obj
 
 # target to build an object file
 thread_abort.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread_abort.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread_abort.c.obj
 .PHONY : thread_abort.c.obj
 
 thread_abort.i: thread_abort.c.i
@@ -374,7 +374,7 @@ thread_abort.i: thread_abort.c.i
 
 # target to preprocess a source file
 thread_abort.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread_abort.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread_abort.c.i
 .PHONY : thread_abort.c.i
 
 thread_abort.s: thread_abort.c.s
@@ -383,7 +383,7 @@ thread_abort.s: thread_abort.c.s
 
 # target to generate assembly for a file
 thread_abort.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread_abort.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/thread_abort.c.s
 .PHONY : thread_abort.c.s
 
 # Help Target
@@ -435,6 +435,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

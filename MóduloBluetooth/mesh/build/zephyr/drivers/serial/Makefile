@@ -48,10 +48,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial/CMakeFiles/progress.marks
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial/CMakeFiles/progress.marks
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/clean
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule
 .PHONY : zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ drivers__serial: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule
 
 # fast build rule for target.
 drivers__serial/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build
 .PHONY : drivers__serial/fast
 
 uart_nrfx_uart.obj: uart_nrfx_uart.c.obj
@@ -131,7 +131,7 @@ uart_nrfx_uart.obj: uart_nrfx_uart.c.obj
 
 # target to build an object file
 uart_nrfx_uart.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.obj
 .PHONY : uart_nrfx_uart.c.obj
 
 uart_nrfx_uart.i: uart_nrfx_uart.c.i
@@ -140,7 +140,7 @@ uart_nrfx_uart.i: uart_nrfx_uart.c.i
 
 # target to preprocess a source file
 uart_nrfx_uart.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.i
 .PHONY : uart_nrfx_uart.c.i
 
 uart_nrfx_uart.s: uart_nrfx_uart.c.s
@@ -149,7 +149,7 @@ uart_nrfx_uart.s: uart_nrfx_uart.c.s
 
 # target to generate assembly for a file
 uart_nrfx_uart.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/uart_nrfx_uart.c.s
 .PHONY : uart_nrfx_uart.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

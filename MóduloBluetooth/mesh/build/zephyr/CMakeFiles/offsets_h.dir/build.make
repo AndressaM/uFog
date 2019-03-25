@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Utility rule file for offsets_h.
 
@@ -57,8 +57,8 @@ zephyr/CMakeFiles/offsets_h: zephyr/include/generated/offsets.h
 
 
 zephyr/include/generated/offsets.h:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/generated/offsets.h"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/gen_offset_header.py -i /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/CMakeFiles/offsets.dir/arch/arm/core/offsets/offsets.c.obj -o /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/include/generated/offsets.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/generated/offsets.h"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/gen_offset_header.py -i /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/CMakeFiles/offsets.dir/arch/arm/core/offsets/offsets.c.obj -o /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/include/generated/offsets.h
 
 offsets_h: zephyr/CMakeFiles/offsets_h
 offsets_h: zephyr/include/generated/offsets.h
@@ -72,10 +72,10 @@ zephyr/CMakeFiles/offsets_h.dir/build: offsets_h
 .PHONY : zephyr/CMakeFiles/offsets_h.dir/build
 
 zephyr/CMakeFiles/offsets_h.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && $(CMAKE_COMMAND) -P CMakeFiles/offsets_h.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && $(CMAKE_COMMAND) -P CMakeFiles/offsets_h.dir/cmake_clean.cmake
 .PHONY : zephyr/CMakeFiles/offsets_h.dir/clean
 
 zephyr/CMakeFiles/offsets_h.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/CMakeFiles/offsets_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/CMakeFiles/offsets_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/CMakeFiles/offsets_h.dir/depend
 

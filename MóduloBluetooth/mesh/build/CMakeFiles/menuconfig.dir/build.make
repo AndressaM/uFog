@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Utility rule file for menuconfig.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
 include CMakeFiles/menuconfig.dir/progress.make
 
 CMakeFiles/menuconfig:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/kconfig && /home/horacio/cmake-3.13.4/bin/cmake -E env PYTHON_EXECUTABLE=/home/horacio/anaconda3/bin/python srctree=/home/horacio/zephyrproject/zephyr KERNELVERSION=0x10E0000 KCONFIG_CONFIG=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/.config ARCH=arm BOARD_DIR=/home/horacio/zephyrproject/zephyr/boards/arm/nrf52_pca10040 SOC_DIR=/home/horacio/zephyrproject/zephyr/soc PROJECT_BINARY_DIR=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr ZEPHYR_TOOLCHAIN_VARIANT=zephyr ARCH_DIR=/home/horacio/zephyrproject/zephyr/arch GENERATED_DTS_BOARD_CONF=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/include/generated/generated_dts_board.conf /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/kconfig/menuconfig.py /home/horacio/zephyrproject/zephyr/Kconfig
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/kconfig && /home/horacio/cmake-3.13.4/bin/cmake -E env PYTHON_EXECUTABLE=/home/horacio/anaconda3/bin/python srctree=/home/horacio/zephyrproject/zephyr KERNELVERSION=0x10E0000 KCONFIG_CONFIG=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/.config ARCH=arm BOARD_DIR=/home/horacio/zephyrproject/zephyr/boards/arm/nrf52_pca10040 SOC_DIR=/home/horacio/zephyrproject/zephyr/soc PROJECT_BINARY_DIR=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr ZEPHYR_TOOLCHAIN_VARIANT=zephyr ARCH_DIR=/home/horacio/zephyrproject/zephyr/arch GENERATED_DTS_BOARD_CONF=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/include/generated/generated_dts_board.conf /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/kconfig/menuconfig.py /home/horacio/zephyrproject/zephyr/Kconfig
 
 menuconfig: CMakeFiles/menuconfig
 menuconfig: CMakeFiles/menuconfig.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/menuconfig.dir/clean:
 .PHONY : CMakeFiles/menuconfig.dir/clean
 
 CMakeFiles/menuconfig.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles/menuconfig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles/menuconfig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/menuconfig.dir/depend
 

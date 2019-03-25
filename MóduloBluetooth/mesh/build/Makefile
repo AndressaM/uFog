@@ -48,10 +48,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -449,6 +449,19 @@ subsys__net/fast:
 .PHONY : subsys__net/fast
 
 #=============================================================================
+# Target rules for targets named drivers__gpio
+
+# Build rule for target.
+drivers__gpio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 drivers__gpio
+.PHONY : drivers__gpio
+
+# fast build rule for target.
+drivers__gpio/fast:
+	$(MAKE) -f zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/build.make zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/build
+.PHONY : drivers__gpio/fast
+
+#=============================================================================
 # Target rules for targets named drivers__flash
 
 # Build rule for target.
@@ -652,6 +665,7 @@ help:
 	@echo "... subsys__bluetooth__host__mesh"
 	@echo "... subsys__bluetooth__controller"
 	@echo "... subsys__net"
+	@echo "... drivers__gpio"
 	@echo "... drivers__flash"
 	@echo "... drivers__serial"
 	@echo "... drivers__entropy"

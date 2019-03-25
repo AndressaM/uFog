@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/horacio/zephyrproject/zephyr/arch/arm/include/kernel_arch_func.h
+../../../../../../arch/arm/include/kernel_arch_func.h
 
-/home/horacio/zephyrproject/zephyr/arch/arm/include/kernel_arch_thread.h
+../../../../../../arch/arm/include/kernel_arch_thread.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_armcc.h
+../../../../../../ext/hal/cmsis/Include/cmsis_armcc.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_armclang.h
+../../../../../../ext/hal/cmsis/Include/cmsis_armclang.h
 arm_compat.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 stdint.h
 -
 cmsis_armcc.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_armcc.h
+../../../../../../ext/hal/cmsis/Include/cmsis_armcc.h
 cmsis_armclang.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_armclang.h
+../../../../../../ext/hal/cmsis/Include/cmsis_armclang.h
 cmsis_gcc.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_gcc.h
+../../../../../../ext/hal/cmsis/Include/cmsis_gcc.h
 cmsis_iccarm.h
 -
 cmsis_ccs.h
@@ -34,227 +34,227 @@ cmsis_ccs.h
 cmsis_csm.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_gcc.h
+../../../../../../ext/hal/cmsis/Include/cmsis_gcc.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_iccarm.h
+../../../../../../ext/hal/cmsis/Include/cmsis_iccarm.h
 iccarm_builtin.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/iccarm_builtin.h
+../../../../../../ext/hal/cmsis/Include/iccarm_builtin.h
 intrinsics.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/core_cm0.h
+../../../../../../ext/hal/cmsis/Include/core_cm0.h
 stdint.h
 -
 cmsis_version.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 cmsis_compiler.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/core_cm0plus.h
+../../../../../../ext/hal/cmsis/Include/core_cm0plus.h
 stdint.h
 -
 cmsis_version.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 cmsis_compiler.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 mpu_armv7.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv7.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv7.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/core_cm23.h
+../../../../../../ext/hal/cmsis/Include/core_cm23.h
 stdint.h
 -
 cmsis_version.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 cmsis_compiler.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 mpu_armv8.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv8.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv8.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/core_cm3.h
+../../../../../../ext/hal/cmsis/Include/core_cm3.h
 stdint.h
 -
 cmsis_version.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 cmsis_compiler.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 mpu_armv7.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv7.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv7.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/core_cm33.h
+../../../../../../ext/hal/cmsis/Include/core_cm33.h
 stdint.h
 -
 cmsis_version.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 cmsis_compiler.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 mpu_armv8.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv8.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv8.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/core_cm4.h
+../../../../../../ext/hal/cmsis/Include/core_cm4.h
 stdint.h
 -
 cmsis_version.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 cmsis_compiler.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 mpu_armv7.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv7.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv7.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/core_cm7.h
+../../../../../../ext/hal/cmsis/Include/core_cm7.h
 stdint.h
 -
 cmsis_version.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_version.h
+../../../../../../ext/hal/cmsis/Include/cmsis_version.h
 cmsis_compiler.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/cmsis_compiler.h
+../../../../../../ext/hal/cmsis/Include/cmsis_compiler.h
 mpu_armv7.h
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv7.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv7.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv7.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv7.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/cmsis/Include/mpu_armv8.h
+../../../../../../ext/hal/cmsis/Include/mpu_armv8.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/compiler_abstraction.h
+../../../../../../ext/hal/nordic/nrfx/mdk/compiler_abstraction.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf.h
 nrf51.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51.h
 nrf51_bitfields.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_bitfields.h
 nrf51_deprecated.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_deprecated.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_deprecated.h
 nrf52810.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52810.h
 nrf52810_bitfields.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52810_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52810_bitfields.h
 nrf51_to_nrf52810.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52810.h
 nrf52_to_nrf52810.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52810.h
 nrf52811.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52811.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52811.h
 nrf52811_bitfields.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52811_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52811_bitfields.h
 nrf51_to_nrf52810.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52810.h
 nrf52_to_nrf52810.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52810.h
 nrf52810_to_nrf52811.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52810_to_nrf52811.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52810_to_nrf52811.h
 nrf52.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52.h
 nrf52_bitfields.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_bitfields.h
 nrf51_to_nrf52.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52.h
 nrf52_name_change.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_name_change.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_name_change.h
 nrf52840.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52840.h
 nrf52840_bitfields.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52840_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52840_bitfields.h
 nrf51_to_nrf52840.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52840.h
 nrf52_to_nrf52840.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52840.h
 nrf9160.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf9160.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf9160.h
 nrf9160_bitfields.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf9160_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf9160_bitfields.h
 compiler_abstraction.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/compiler_abstraction.h
+../../../../../../ext/hal/nordic/nrfx/mdk/compiler_abstraction.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51.h
 core_cm0.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/core_cm0.h
+../../../../../../ext/hal/nordic/nrfx/mdk/core_cm0.h
 system_nrf51.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf51.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf51.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_bitfields.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_deprecated.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_deprecated.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52810.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf51_to_nrf52840.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52.h
 core_cm4.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/core_cm4.h
+../../../../../../ext/hal/nordic/nrfx/mdk/core_cm4.h
 system_nrf52.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52810.h
 core_cm4.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/core_cm4.h
+../../../../../../ext/hal/nordic/nrfx/mdk/core_cm4.h
 system_nrf52810.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52810.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52810_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52810_bitfields.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52810_to_nrf52811.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52810_to_nrf52811.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52811.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52811.h
 core_cm4.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/core_cm4.h
+../../../../../../ext/hal/nordic/nrfx/mdk/core_cm4.h
 system_nrf52811.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52811.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52811.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52811_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52811_bitfields.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52840.h
 core_cm4.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/core_cm4.h
+../../../../../../ext/hal/nordic/nrfx/mdk/core_cm4.h
 system_nrf52840.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52840.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52840_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52840_bitfields.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_bitfields.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_name_change.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_name_change.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52810.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf52_to_nrf52840.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf9160.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf9160.h
 core_cm33.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/core_cm33.h
+../../../../../../ext/hal/nordic/nrfx/mdk/core_cm33.h
 system_nrf9160.h
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf9160.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf9160.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/nrf9160_bitfields.h
+../../../../../../ext/hal/nordic/nrfx/mdk/nrf9160_bitfields.h
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf51.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf51.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52810.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52810.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52811.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52811.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf52840.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf52840.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/ext/hal/nordic/nrfx/mdk/system_nrf9160.h
+../../../../../../ext/hal/nordic/nrfx/mdk/system_nrf9160.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/arch.h
+../../../../../../include/arch/arc/arch.h
 generated_dts_board.h
 -
 sw_isr_table.h
@@ -280,7 +280,7 @@ arch/arc/v2/addr_types.h
 arch/arc/v2/mpu/arc_mpu.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/syscall.h
+../../../../../../include/arch/arc/syscall.h
 zephyr/types.h
 -
 stdbool.h
@@ -288,15 +288,15 @@ stdbool.h
 arch/arc/v2/aux_regs.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/addr_types.h
+../../../../../../include/arch/arc/v2/addr_types.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/arcv2_irq_unit.h
+../../../../../../include/arch/arc/v2/arcv2_irq_unit.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/asm_inline.h
+../../../../../../include/arch/arc/v2/asm_inline.h
 arch/arc/v2/asm_inline_gcc.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/asm_inline_gcc.h
+../../../../../../include/arch/arc/v2/asm_inline_gcc.h
 sys_io.h
 -
 arch/arc/v2/aux_regs.h
@@ -306,11 +306,11 @@ zephyr/types.h
 stddef.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/aux_regs.h
+../../../../../../include/arch/arc/v2/aux_regs.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/error.h
+../../../../../../include/arch/arc/v2/error.h
 arch/arc/syscall.h
 -
 arch/arc/v2/exc.h
@@ -320,13 +320,13 @@ stdbool.h
 toolchain/gcc.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/exc.h
+../../../../../../include/arch/arc/v2/exc.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/ffs.h
+../../../../../../include/arch/arc/v2/ffs.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/irq.h
+../../../../../../include/arch/arc/v2/irq.h
 arch/arc/v2/aux_regs.h
 -
 toolchain/common.h
@@ -338,11 +338,11 @@ misc/util.h
 sw_isr_table.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/misc.h
+../../../../../../include/arch/arc/v2/misc.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arc/v2/mpu/arc_mpu.h
+../../../../../../include/arch/arc/v2/mpu/arc_mpu.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/arch.h
+../../../../../../include/arch/arm/arch.h
 generated_dts_board.h
 -
 arch/arm/cortex_m/exc.h
@@ -368,15 +368,15 @@ arch/arm/cortex_m/mpu/arm_mpu.h
 arch/arm/cortex_m/mpu/nxp_mpu.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/addr_types.h
+../../../../../../include/arch/arm/cortex_m/addr_types.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/asm_inline.h
+../../../../../../include/arch/arm/cortex_m/asm_inline.h
 arch/arm/cortex_m/asm_inline_gcc.h
 -
 arch/arm/cortex_m/asm_inline_other.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/asm_inline_gcc.h
+../../../../../../include/arch/arm/cortex_m/asm_inline_gcc.h
 zephyr/types.h
 -
 arch/arm/cortex_m/exc.h
@@ -384,7 +384,7 @@ arch/arm/cortex_m/exc.h
 irq.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/cmsis.h
+../../../../../../include/arch/arm/cortex_m/cmsis.h
 soc.h
 -
 core_cm0.h
@@ -402,7 +402,7 @@ core_cm23.h
 core_cm33.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/error.h
+../../../../../../include/arch/arm/cortex_m/error.h
 arch/arm/syscall.h
 -
 arch/arm/cortex_m/exc.h
@@ -410,11 +410,11 @@ arch/arm/cortex_m/exc.h
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/exc.h
+../../../../../../include/arch/arm/cortex_m/exc.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/irq.h
+../../../../../../include/arch/arm/cortex_m/irq.h
 irq.h
 -
 sw_isr_table.h
@@ -422,49 +422,49 @@ sw_isr_table.h
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/memory_map.h
+../../../../../../include/arch/arm/cortex_m/memory_map.h
 misc/util.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/misc.h
+../../../../../../include/arch/arm/cortex_m/misc.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/mpu/arm_mpu.h
+../../../../../../include/arch/arm/cortex_m/mpu/arm_mpu.h
 arch/arm/cortex_m/mpu/arm_mpu_v7m.h
 -
 arch/arm/cortex_m/mpu/arm_mpu_v8m.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/mpu/arm_mpu_v7m.h
+../../../../../../include/arch/arm/cortex_m/mpu/arm_mpu_v7m.h
 arch/arm/cortex_m/cmsis.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/mpu/arm_mpu_v8m.h
+../../../../../../include/arch/arm/cortex_m/mpu/arm_mpu_v8m.h
 arch/arm/cortex_m/cmsis.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/mpu/nxp_mpu.h
+../../../../../../include/arch/arm/cortex_m/mpu/nxp_mpu.h
 fsl_common.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/nmi.h
+../../../../../../include/arch/arm/cortex_m/nmi.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/cortex_m/sys_io.h
+../../../../../../include/arch/arm/cortex_m/sys_io.h
 sys_io.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/arm/syscall.h
+../../../../../../include/arch/arm/syscall.h
 zephyr/types.h
 -
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/bits_portable.h
+../../../../../../include/arch/bits_portable.h
 zephyr/types.h
 -
 sys_io.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/cpu.h
+../../../../../../include/arch/cpu.h
 arch/x86/arch.h
 -
 arch/x86_64/arch.h
@@ -482,7 +482,7 @@ arch/xtensa/arch.h
 arch/posix/arch.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/nios2/arch.h
+../../../../../../include/arch/nios2/arch.h
 system.h
 -
 arch/nios2/asm_inline.h
@@ -490,7 +490,7 @@ arch/nios2/asm_inline.h
 generated_dts_board.h
 -
 nios2.h
-/home/horacio/zephyrproject/zephyr/include/arch/nios2/nios2.h
+../../../../../../include/arch/nios2/nios2.h
 zephyr/types.h
 -
 irq.h
@@ -498,19 +498,19 @@ irq.h
 sw_isr_table.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/nios2/asm_inline.h
+../../../../../../include/arch/nios2/asm_inline.h
 arch/nios2/asm_inline_gcc.h
 -
 arch/nios2/asm_inline_other.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/nios2/asm_inline_gcc.h
+../../../../../../include/arch/nios2/asm_inline_gcc.h
 sys_io.h
 -
 toolchain.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/nios2/nios2.h
+../../../../../../include/arch/nios2/nios2.h
 zephyr/types.h
 -
 arch/cpu.h
@@ -518,7 +518,7 @@ arch/cpu.h
 sys_io.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/posix/arch.h
+../../../../../../include/arch/posix/arch.h
 toolchain.h
 -
 irq.h
@@ -530,11 +530,11 @@ board_irq.h
 sw_isr_table.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/posix/asm_inline.h
+../../../../../../include/arch/posix/asm_inline.h
 arch/posix/asm_inline_gcc.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/posix/asm_inline_gcc.h
+../../../../../../include/arch/posix/asm_inline_gcc.h
 toolchain/common.h
 -
 zephyr/types.h
@@ -544,13 +544,13 @@ sys_io.h
 arch/bits_portable.h
 -
 posix_soc_if.h
-/home/horacio/zephyrproject/zephyr/include/arch/posix/posix_soc_if.h
+../../../../../../include/arch/posix/posix_soc_if.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/riscv32/arch.h
+../../../../../../include/arch/riscv32/arch.h
 exp.h
-/home/horacio/zephyrproject/zephyr/include/arch/riscv32/exp.h
+../../../../../../include/arch/riscv32/exp.h
 sys_io.h
-/home/horacio/zephyrproject/zephyr/include/arch/riscv32/sys_io.h
+../../../../../../include/arch/riscv32/sys_io.h
 irq.h
 -
 sw_isr_table.h
@@ -564,7 +564,7 @@ misc/util.h
 arch/riscv32/riscv-privilege/asm_inline.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/riscv32/exp.h
+../../../../../../include/arch/riscv32/exp.h
 zephyr/types.h
 -
 toolchain.h
@@ -572,19 +572,19 @@ toolchain.h
 soc_context.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/riscv32/riscv-privilege/asm_inline.h
+../../../../../../include/arch/riscv32/riscv-privilege/asm_inline.h
 arch/riscv32/riscv-privilege/asm_inline_gcc.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/riscv32/riscv-privilege/asm_inline_gcc.h
+../../../../../../include/arch/riscv32/riscv-privilege/asm_inline_gcc.h
 toolchain.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/riscv32/sys_io.h
+../../../../../../include/arch/riscv32/sys_io.h
 sys_io.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/syscall.h
+../../../../../../include/arch/syscall.h
 arch/x86/syscall.h
 -
 arch/arm/syscall.h
@@ -592,9 +592,9 @@ arch/arm/syscall.h
 arch/arc/syscall.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86/addr_types.h
+../../../../../../include/arch/x86/addr_types.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86/arch.h
+../../../../../../include/arch/x86/arch.h
 irq.h
 -
 arch/x86/irq_controller.h
@@ -616,13 +616,13 @@ arch/x86/segmentation.h
 stddef.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86/asm_inline.h
+../../../../../../include/arch/x86/asm_inline.h
 arch/x86/asm_inline_gcc.h
 -
 arch/x86/asm_inline_other.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86/asm_inline_gcc.h
+../../../../../../include/arch/x86/asm_inline_gcc.h
 sys_io.h
 -
 zephyr/types.h
@@ -630,7 +630,7 @@ zephyr/types.h
 stddef.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86/irq_controller.h
+../../../../../../include/arch/x86/irq_controller.h
 drivers/mvic.h
 -
 drivers/sysapic.h
@@ -638,29 +638,29 @@ drivers/sysapic.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86/segmentation.h
+../../../../../../include/arch/x86/segmentation.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86/syscall.h
+../../../../../../include/arch/x86/syscall.h
 zephyr/types.h
 -
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/x86_64/arch.h
+../../../../../../include/arch/x86_64/arch.h
 kernel_arch_func.h
 -
 arch/bits_portable.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/xtensa/arch.h
+../../../../../../include/arch/xtensa/arch.h
 irq.h
 -
 generated_dts_board.h
 -
 sys_io.h
-/home/horacio/zephyrproject/zephyr/include/arch/xtensa/sys_io.h
+../../../../../../include/arch/xtensa/sys_io.h
 zephyr/types.h
 -
 sw_isr_table.h
@@ -672,9 +672,9 @@ xtensa/config/core.h
 arch/xtensa/exc.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/arch/xtensa/exc.h
+../../../../../../include/arch/xtensa/exc.h
 
-/home/horacio/zephyrproject/zephyr/include/arch/xtensa/xtensa_irq.h
+../../../../../../include/arch/xtensa/xtensa_irq.h
 xtensa_api.h
 -
 xtensa/xtruntime.h
@@ -684,31 +684,31 @@ soc.h
 irq.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/atomic.h
+../../../../../../include/atomic.h
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/drivers/loapic.h
+../../../../../../include/drivers/loapic.h
 
-/home/horacio/zephyrproject/zephyr/include/drivers/mvic.h
+../../../../../../include/drivers/mvic.h
 arch/cpu.h
 -
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/drivers/sysapic.h
+../../../../../../include/drivers/sysapic.h
 drivers/loapic.h
 -
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/generated_dts_board.h
+../../../../../../include/generated_dts_board.h
 generated_dts_board_unfixed.h
 -
 generated_dts_board_fixups.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/irq.h
+../../../../../../include/irq.h
 arch/cpu.h
 -
 toolchain.h
@@ -716,7 +716,7 @@ toolchain.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/kernel.h
+../../../../../../include/kernel.h
 kernel_includes.h
 -
 errno.h
@@ -730,7 +730,7 @@ tracing.h
 syscalls/kernel.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/kernel_includes.h
+../../../../../../include/kernel_includes.h
 stddef.h
 -
 zephyr/types.h
@@ -776,23 +776,23 @@ sys_clock.h
 spinlock.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/kernel_version.h
+../../../../../../include/kernel_version.h
 
-/home/horacio/zephyrproject/zephyr/include/linker/section_tags.h
+../../../../../../include/linker/section_tags.h
 toolchain.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/linker/sections.h
+../../../../../../include/linker/sections.h
 linker/section_tags.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/logging/log.h
+../../../../../../include/logging/log.h
 logging/log_instance.h
 -
 logging/log_core.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/logging/log_core.h
+../../../../../../include/logging/log_core.h
 logging/log_msg.h
 -
 logging/log_instance.h
@@ -802,11 +802,11 @@ misc/util.h
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/logging/log_instance.h
+../../../../../../include/logging/log_instance.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/logging/log_msg.h
+../../../../../../include/logging/log_msg.h
 kernel.h
 -
 atomic.h
@@ -816,13 +816,13 @@ assert.h
 string.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/__assert.h
+../../../../../../include/misc/__assert.h
 stdbool.h
 -
 misc/printk.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/byteorder.h
+../../../../../../include/misc/byteorder.h
 zephyr/types.h
 -
 stddef.h
@@ -830,7 +830,7 @@ stddef.h
 misc/__assert.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/dlist.h
+../../../../../../include/misc/dlist.h
 stddef.h
 -
 stdbool.h
@@ -838,13 +838,13 @@ stdbool.h
 toolchain.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/errno_private.h
+../../../../../../include/misc/errno_private.h
 toolchain.h
 -
 syscalls/errno_private.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/list_gen.h
+../../../../../../include/misc/list_gen.h
 stddef.h
 -
 stdbool.h
@@ -852,13 +852,13 @@ stdbool.h
 misc/util.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/mempool_base.h
+../../../../../../include/misc/mempool_base.h
 zephyr/types.h
 -
 stddef.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/printk.h
+../../../../../../include/misc/printk.h
 toolchain.h
 -
 stddef.h
@@ -868,35 +868,35 @@ stdarg.h
 inttypes.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/rb.h
+../../../../../../include/misc/rb.h
 alloca.h
 -
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/misc/sflist.h
+../../../../../../include/misc/sflist.h
 stddef.h
 -
 stdbool.h
 -
 list_gen.h
-/home/horacio/zephyrproject/zephyr/include/misc/list_gen.h
+../../../../../../include/misc/list_gen.h
 
-/home/horacio/zephyrproject/zephyr/include/misc/slist.h
+../../../../../../include/misc/slist.h
 stddef.h
 -
 stdbool.h
 -
 list_gen.h
-/home/horacio/zephyrproject/zephyr/include/misc/list_gen.h
+../../../../../../include/misc/list_gen.h
 
-/home/horacio/zephyrproject/zephyr/include/misc/util.h
+../../../../../../include/misc/util.h
 zephyr/types.h
 -
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/net/buf.h
+../../../../../../include/net/buf.h
 stddef.h
 -
 zephyr/types.h
@@ -906,11 +906,11 @@ misc/util.h
 zephyr.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/random/rand32.h
+../../../../../../include/random/rand32.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/sched_priq.h
+../../../../../../include/sched_priq.h
 misc/util.h
 -
 misc/dlist.h
@@ -918,19 +918,19 @@ misc/dlist.h
 misc/rb.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/spinlock.h
+../../../../../../include/spinlock.h
 atomic.h
 -
 misc/__assert.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/sw_isr_table.h
+../../../../../../include/sw_isr_table.h
 zephyr/types.h
 -
 toolchain.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/sys_clock.h
+../../../../../../include/sys_clock.h
 misc/util.h
 -
 misc/dlist.h
@@ -940,7 +940,7 @@ toolchain.h
 zephyr/types.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/syscall.h
+../../../../../../include/syscall.h
 syscall_list.h
 -
 arch/syscall.h
@@ -952,7 +952,7 @@ zephyr/types.h
 syscall_macros.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/toolchain.h
+../../../../../../include/toolchain.h
 toolchain/xcc.h
 -
 toolchain/gcc.h
@@ -960,15 +960,15 @@ toolchain/gcc.h
 toolchain/other.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/toolchain/common.h
+../../../../../../include/toolchain/common.h
 
-/home/horacio/zephyrproject/zephyr/include/toolchain/gcc.h
+../../../../../../include/toolchain/gcc.h
 toolchain/common.h
 -
 stdbool.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/toolchain/xcc.h
+../../../../../../include/toolchain/xcc.h
 toolchain/gcc.h
 -
 stdbool.h
@@ -976,45 +976,45 @@ stdbool.h
 xtensa/config/core.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/tracing.h
+../../../../../../include/tracing.h
 kernel.h
 -
 tracing_sysview.h
-/home/horacio/zephyrproject/zephyr/include/tracing_sysview.h
+../../../../../../include/tracing_sysview.h
 tracing_cpu_stats.h
-/home/horacio/zephyrproject/zephyr/include/tracing_cpu_stats.h
+../../../../../../include/tracing_cpu_stats.h
 tracing_ctf.h
-/home/horacio/zephyrproject/zephyr/include/tracing_ctf.h
+../../../../../../include/tracing_ctf.h
 
-/home/horacio/zephyrproject/zephyr/include/zephyr.h
+../../../../../../include/zephyr.h
 kernel.h
 -
 
-/home/horacio/zephyrproject/zephyr/include/zephyr/types.h
+../../../../../../include/zephyr/types.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/assert.h
+../../../../../../lib/libc/minimal/include/assert.h
 misc/__assert.h
 -
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/bits/restrict.h
+../../../../../../lib/libc/minimal/include/bits/restrict.h
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/errno.h
+../../../../../../lib/libc/minimal/include/errno.h
 misc/errno_private.h
 -
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/inttypes.h
+../../../../../../lib/libc/minimal/include/inttypes.h
 stdint.h
 -
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/limits.h
+../../../../../../lib/libc/minimal/include/limits.h
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/stdbool.h
+../../../../../../lib/libc/minimal/include/stdbool.h
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/stdint.h
+../../../../../../lib/libc/minimal/include/stdint.h
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/stdio.h
+../../../../../../lib/libc/minimal/include/stdio.h
 toolchain.h
 -
 stdarg.h
@@ -1024,15 +1024,15 @@ bits/restrict.h
 stddef.h
 -
 
-/home/horacio/zephyrproject/zephyr/lib/libc/minimal/include/string.h
+../../../../../../lib/libc/minimal/include/string.h
 stddef.h
 -
 bits/restrict.h
 -
 
-/home/horacio/zephyrproject/zephyr/soc/arm/nordic_nrf/include/nrf_common.h
+../../../../../../soc/arm/nordic_nrf/include/nrf_common.h
 
-/home/horacio/zephyrproject/zephyr/soc/arm/nordic_nrf/nrf52/soc.h
+../../../../../../soc/arm/nordic_nrf/nrf52/soc.h
 nrf_common.h
 -
 nrf.h

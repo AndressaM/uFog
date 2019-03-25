@@ -9,9 +9,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/subsys__bluetooth__host__mesh.dir/cfg_srv.c.obj"
   "CMakeFiles/subsys__bluetooth__host__mesh.dir/health_srv.c.obj"
   "CMakeFiles/subsys__bluetooth__host__mesh.dir/settings.c.obj"
-  "CMakeFiles/subsys__bluetooth__host__mesh.dir/friend.c.obj"
   "CMakeFiles/subsys__bluetooth__host__mesh.dir/prov.c.obj"
   "CMakeFiles/subsys__bluetooth__host__mesh.dir/proxy.c.obj"
+  "CMakeFiles/subsys__bluetooth__host__mesh.dir/cfg_cli.c.obj"
   "libsubsys__bluetooth__host__mesh.pdb"
   "libsubsys__bluetooth__host__mesh.a"
 )

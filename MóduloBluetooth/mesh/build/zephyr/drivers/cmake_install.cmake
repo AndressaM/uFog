@@ -34,14 +34,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/console/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/clock_control/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/serial/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/bluetooth/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/entropy/cmake_install.cmake")
-  include("/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/timer/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/console/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/clock_control/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/gpio/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/serial/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/bluetooth/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/entropy/cmake_install.cmake")
+  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/timer/cmake_install.cmake")
 
 endif()
 

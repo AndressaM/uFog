@@ -59,10 +59,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/pristine.dir
@@ -71,14 +71,14 @@ CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
 CMakeFiles/pristine.dir/all:
 	$(MAKE) -f CMakeFiles/pristine.dir/build.make CMakeFiles/pristine.dir/depend
 	$(MAKE) -f CMakeFiles/pristine.dir/build.make CMakeFiles/pristine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target pristine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target pristine"
 .PHONY : CMakeFiles/pristine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pristine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pristine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : CMakeFiles/pristine.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/pristine.dir/clean
 CMakeFiles/app.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=1 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=1 "Built target app"
 .PHONY : CMakeFiles/app.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
 
 # Convenience name for target.
@@ -140,14 +140,14 @@ clean: CMakeFiles/app.dir/clean
 CMakeFiles/code_data_relocation_target.dir/all:
 	$(MAKE) -f CMakeFiles/code_data_relocation_target.dir/build.make CMakeFiles/code_data_relocation_target.dir/depend
 	$(MAKE) -f CMakeFiles/code_data_relocation_target.dir/build.make CMakeFiles/code_data_relocation_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target code_data_relocation_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target code_data_relocation_target"
 .PHONY : CMakeFiles/code_data_relocation_target.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/code_data_relocation_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/code_data_relocation_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : CMakeFiles/code_data_relocation_target.dir/rule
 
 # Convenience name for target.
@@ -172,14 +172,14 @@ clean: CMakeFiles/code_data_relocation_target.dir/clean
 CMakeFiles/menuconfig.dir/all:
 	$(MAKE) -f CMakeFiles/menuconfig.dir/build.make CMakeFiles/menuconfig.dir/depend
 	$(MAKE) -f CMakeFiles/menuconfig.dir/build.make CMakeFiles/menuconfig.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target menuconfig"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target menuconfig"
 .PHONY : CMakeFiles/menuconfig.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/menuconfig.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/menuconfig.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : CMakeFiles/menuconfig.dir/rule
 
 # Convenience name for target.
@@ -204,14 +204,14 @@ clean: CMakeFiles/menuconfig.dir/clean
 CMakeFiles/config-sanitycheck.dir/all:
 	$(MAKE) -f CMakeFiles/config-sanitycheck.dir/build.make CMakeFiles/config-sanitycheck.dir/depend
 	$(MAKE) -f CMakeFiles/config-sanitycheck.dir/build.make CMakeFiles/config-sanitycheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target config-sanitycheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target config-sanitycheck"
 .PHONY : CMakeFiles/config-sanitycheck.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/config-sanitycheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/config-sanitycheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : CMakeFiles/config-sanitycheck.dir/rule
 
 # Convenience name for target.
@@ -300,14 +300,14 @@ zephyr/preinstall: zephyr/cmake/reports/preinstall
 zephyr/CMakeFiles/run.dir/all:
 	$(MAKE) -f zephyr/CMakeFiles/run.dir/build.make zephyr/CMakeFiles/run.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/run.dir/build.make zephyr/CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target run"
 .PHONY : zephyr/CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/run.dir/rule
 
 # Convenience name for target.
@@ -333,14 +333,14 @@ zephyr/CMakeFiles/linker_pass_final_script_target.dir/all: zephyr/CMakeFiles/off
 zephyr/CMakeFiles/linker_pass_final_script_target.dir/all: zephyr/CMakeFiles/zephyr_prebuilt.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/linker_pass_final_script_target.dir/build.make zephyr/CMakeFiles/linker_pass_final_script_target.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/linker_pass_final_script_target.dir/build.make zephyr/CMakeFiles/linker_pass_final_script_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target linker_pass_final_script_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=42 "Built target linker_pass_final_script_target"
 .PHONY : zephyr/CMakeFiles/linker_pass_final_script_target.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/linker_pass_final_script_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 95
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 95
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/linker_pass_final_script_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/linker_pass_final_script_target.dir/rule
 
 # Convenience name for target.
@@ -365,14 +365,14 @@ clean: zephyr/CMakeFiles/linker_pass_final_script_target.dir/clean
 zephyr/CMakeFiles/syscall_list_h_target.dir/all:
 	$(MAKE) -f zephyr/CMakeFiles/syscall_list_h_target.dir/build.make zephyr/CMakeFiles/syscall_list_h_target.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/syscall_list_h_target.dir/build.make zephyr/CMakeFiles/syscall_list_h_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=69,70 "Built target syscall_list_h_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=70,71 "Built target syscall_list_h_target"
 .PHONY : zephyr/CMakeFiles/syscall_list_h_target.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/syscall_list_h_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/syscall_list_h_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/syscall_list_h_target.dir/rule
 
 # Convenience name for target.
@@ -397,14 +397,14 @@ clean: zephyr/CMakeFiles/syscall_list_h_target.dir/clean
 zephyr/CMakeFiles/syscall_macros_h_target.dir/all:
 	$(MAKE) -f zephyr/CMakeFiles/syscall_macros_h_target.dir/build.make zephyr/CMakeFiles/syscall_macros_h_target.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/syscall_macros_h_target.dir/build.make zephyr/CMakeFiles/syscall_macros_h_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=71 "Built target syscall_macros_h_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target syscall_macros_h_target"
 .PHONY : zephyr/CMakeFiles/syscall_macros_h_target.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/syscall_macros_h_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/syscall_macros_h_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/syscall_macros_h_target.dir/rule
 
 # Convenience name for target.
@@ -429,14 +429,14 @@ clean: zephyr/CMakeFiles/syscall_macros_h_target.dir/clean
 zephyr/CMakeFiles/driver_validation_h_target.dir/all:
 	$(MAKE) -f zephyr/CMakeFiles/driver_validation_h_target.dir/build.make zephyr/CMakeFiles/driver_validation_h_target.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/driver_validation_h_target.dir/build.make zephyr/CMakeFiles/driver_validation_h_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target driver_validation_h_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target driver_validation_h_target"
 .PHONY : zephyr/CMakeFiles/driver_validation_h_target.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/driver_validation_h_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/driver_validation_h_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/driver_validation_h_target.dir/rule
 
 # Convenience name for target.
@@ -461,7 +461,7 @@ clean: zephyr/CMakeFiles/driver_validation_h_target.dir/clean
 zephyr/CMakeFiles/zephyr.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target zephyr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target zephyr"
 .PHONY : zephyr/CMakeFiles/zephyr.dir/all
 
 # Include target in all.
@@ -471,9 +471,9 @@ all: zephyr/CMakeFiles/zephyr.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/zephyr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/zephyr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/zephyr.dir/rule
 
 # Convenience name for target.
@@ -498,14 +498,14 @@ clean: zephyr/CMakeFiles/zephyr.dir/clean
 zephyr/CMakeFiles/linker_script_target.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/linker_script_target.dir/build.make zephyr/CMakeFiles/linker_script_target.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/linker_script_target.dir/build.make zephyr/CMakeFiles/linker_script_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=42 "Built target linker_script_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target linker_script_target"
 .PHONY : zephyr/CMakeFiles/linker_script_target.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/linker_script_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/linker_script_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/linker_script_target.dir/rule
 
 # Convenience name for target.
@@ -540,13 +540,14 @@ zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/subsys/bluetooth/host/CMakeFiles/su
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/all
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/all
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/subsys/net/CMakeFiles/subsys__net.dir/all
+zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/all
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/kernel/CMakeFiles/kernel.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/kernel_elf.dir/build.make zephyr/CMakeFiles/kernel_elf.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/kernel_elf.dir/build.make zephyr/CMakeFiles/kernel_elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=33,34 "Built target kernel_elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=33,34,35 "Built target kernel_elf"
 .PHONY : zephyr/CMakeFiles/kernel_elf.dir/all
 
 # Include target in all.
@@ -556,9 +557,9 @@ all: zephyr/CMakeFiles/kernel_elf.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/kernel_elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 98
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/kernel_elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/kernel_elf.dir/rule
 
 # Convenience name for target.
@@ -583,14 +584,14 @@ clean: zephyr/CMakeFiles/kernel_elf.dir/clean
 zephyr/CMakeFiles/offsets_h.dir/all: zephyr/CMakeFiles/offsets.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/offsets_h.dir/build.make zephyr/CMakeFiles/offsets_h.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/offsets_h.dir/build.make zephyr/CMakeFiles/offsets_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=43 "Built target offsets_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target offsets_h"
 .PHONY : zephyr/CMakeFiles/offsets_h.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/offsets_h.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/offsets_h.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/offsets_h.dir/rule
 
 # Convenience name for target.
@@ -625,13 +626,14 @@ zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/subsys/bluetooth/host/CMakeFil
 zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/all
 zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/all
 zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/subsys/net/CMakeFiles/subsys__net.dir/all
+zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
 zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/all
 zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all
 zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all
 zephyr/CMakeFiles/zephyr_prebuilt.dir/all: zephyr/kernel/CMakeFiles/kernel.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/zephyr_prebuilt.dir/build.make zephyr/CMakeFiles/zephyr_prebuilt.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/zephyr_prebuilt.dir/build.make zephyr/CMakeFiles/zephyr_prebuilt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=99,100 "Built target zephyr_prebuilt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=99,100 "Built target zephyr_prebuilt"
 .PHONY : zephyr/CMakeFiles/zephyr_prebuilt.dir/all
 
 # Include target in all.
@@ -641,9 +643,9 @@ all: zephyr/CMakeFiles/zephyr_prebuilt.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/zephyr_prebuilt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 95
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 94
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/zephyr_prebuilt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/zephyr_prebuilt.dir/rule
 
 # Convenience name for target.
@@ -668,14 +670,14 @@ clean: zephyr/CMakeFiles/zephyr_prebuilt.dir/clean
 zephyr/CMakeFiles/kobj_types_h_target.dir/all:
 	$(MAKE) -f zephyr/CMakeFiles/kobj_types_h_target.dir/build.make zephyr/CMakeFiles/kobj_types_h_target.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/kobj_types_h_target.dir/build.make zephyr/CMakeFiles/kobj_types_h_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target kobj_types_h_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target kobj_types_h_target"
 .PHONY : zephyr/CMakeFiles/kobj_types_h_target.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/kobj_types_h_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/kobj_types_h_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/kobj_types_h_target.dir/rule
 
 # Convenience name for target.
@@ -703,7 +705,7 @@ zephyr/CMakeFiles/offsets.dir/all: zephyr/CMakeFiles/driver_validation_h_target.
 zephyr/CMakeFiles/offsets.dir/all: zephyr/CMakeFiles/kobj_types_h_target.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/offsets.dir/build.make zephyr/CMakeFiles/offsets.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/offsets.dir/build.make zephyr/CMakeFiles/offsets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target offsets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=43 "Built target offsets"
 .PHONY : zephyr/CMakeFiles/offsets.dir/all
 
 # Include target in all.
@@ -713,9 +715,9 @@ all: zephyr/CMakeFiles/offsets.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/offsets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/offsets.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/offsets.dir/rule
 
 # Convenience name for target.
@@ -820,7 +822,7 @@ zephyr/arch/arch/arm/core/preinstall: zephyr/arch/arch/arm/core/cortex_m/mpu/pre
 zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/depend
 	$(MAKE) -f zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build.make zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=2,3,4,5,6,7,8 "Built target arch__arm__core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=2,3,4,5,6,7,8 "Built target arch__arm__core"
 .PHONY : zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/all
 
 # Include target in all.
@@ -830,9 +832,9 @@ all: zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/arch/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule
 
 # Convenience name for target.
@@ -875,7 +877,7 @@ zephyr/arch/arch/arm/core/cortex_m/preinstall:
 zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/build.make zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/depend
 	$(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/build.make zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=9,10,11,12 "Built target arch__arm__core__cortex_m"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=9,10,11,12 "Built target arch__arm__core__cortex_m"
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/all
 
 # Include target in all.
@@ -885,9 +887,9 @@ all: zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir
 
 # Build rule for subdir invocation for target.
 zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/rule
 
 # Convenience name for target.
@@ -930,7 +932,7 @@ zephyr/arch/arch/arm/core/cortex_m/mpu/preinstall:
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/depend
 	$(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=13 "Built target arch__arm__core__cortex_m__mpu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=13 "Built target arch__arm__core__cortex_m__mpu"
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/all
 
 # Include target in all.
@@ -940,9 +942,9 @@ all: zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m
 
 # Build rule for subdir invocation for target.
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule
 
 # Convenience name for target.
@@ -1027,7 +1029,7 @@ zephyr/lib/libc/minimal/preinstall:
 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/depend
 	$(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=35,36,37,38,39,40,41 "Built target lib__libc__minimal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=36,37,38,39,40,41 "Built target lib__libc__minimal"
 .PHONY : zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/all
 
 # Include target in all.
@@ -1037,9 +1039,9 @@ all: zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule
 
 # Convenience name for target.
@@ -1853,7 +1855,7 @@ zephyr/subsys/bluetooth/common/preinstall:
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/depend
 	$(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=44 "Built target subsys__bluetooth__common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=44,45 "Built target subsys__bluetooth__common"
 .PHONY : zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all
 
 # Include target in all.
@@ -1863,9 +1865,9 @@ all: zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/rule
 
 # Convenience name for target.
@@ -1910,7 +1912,7 @@ zephyr/subsys/bluetooth/host/preinstall: zephyr/subsys/bluetooth/host/mesh/prein
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/depend
 	$(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=56,57,58,59,60 "Built target subsys__bluetooth__host"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=56,57,58,59,60 "Built target subsys__bluetooth__host"
 .PHONY : zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/all
 
 # Include target in all.
@@ -1920,9 +1922,9 @@ all: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule
 
 # Convenience name for target.
@@ -1965,7 +1967,7 @@ zephyr/subsys/bluetooth/host/mesh/preinstall:
 zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/build.make zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/depend
 	$(MAKE) -f zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/build.make zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=61,62,63,64,65,66,67 "Built target subsys__bluetooth__host__mesh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=61,62,63,64,65,66,67,68 "Built target subsys__bluetooth__host__mesh"
 .PHONY : zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/all
 
 # Include target in all.
@@ -1975,9 +1977,9 @@ all: zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/subsys/bluetooth/host/mesh/CMakeFiles/subsys__bluetooth__host__mesh.dir/rule
 
 # Convenience name for target.
@@ -2038,7 +2040,7 @@ zephyr/subsys/bluetooth/controller/preinstall:
 zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/depend
 	$(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55 "Built target subsys__bluetooth__controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55 "Built target subsys__bluetooth__controller"
 .PHONY : zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/all
 
 # Include target in all.
@@ -2048,9 +2050,9 @@ all: zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/rule
 
 # Convenience name for target.
@@ -2131,7 +2133,7 @@ zephyr/subsys/net/preinstall: zephyr/subsys/net/lib/preinstall
 zephyr/subsys/net/CMakeFiles/subsys__net.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/subsys/net/CMakeFiles/subsys__net.dir/build.make zephyr/subsys/net/CMakeFiles/subsys__net.dir/depend
 	$(MAKE) -f zephyr/subsys/net/CMakeFiles/subsys__net.dir/build.make zephyr/subsys/net/CMakeFiles/subsys__net.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=68 "Built target subsys__net"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=69 "Built target subsys__net"
 .PHONY : zephyr/subsys/net/CMakeFiles/subsys__net.dir/all
 
 # Include target in all.
@@ -2141,9 +2143,9 @@ all: zephyr/subsys/net/CMakeFiles/subsys__net.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/net/CMakeFiles/subsys__net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/net/CMakeFiles/subsys__net.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/subsys/net/CMakeFiles/subsys__net.dir/rule
 
 # Convenience name for target.
@@ -2366,6 +2368,7 @@ zephyr/subsys/testsuite/preinstall:
 zephyr/drivers/all: zephyr/drivers/console/all
 zephyr/drivers/all: zephyr/drivers/interrupt_controller/all
 zephyr/drivers/all: zephyr/drivers/clock_control/all
+zephyr/drivers/all: zephyr/drivers/gpio/all
 zephyr/drivers/all: zephyr/drivers/flash/all
 zephyr/drivers/all: zephyr/drivers/serial/all
 zephyr/drivers/all: zephyr/drivers/bluetooth/all
@@ -2378,6 +2381,7 @@ zephyr/drivers/all: zephyr/drivers/timer/all
 zephyr/drivers/clean: zephyr/drivers/console/clean
 zephyr/drivers/clean: zephyr/drivers/interrupt_controller/clean
 zephyr/drivers/clean: zephyr/drivers/clock_control/clean
+zephyr/drivers/clean: zephyr/drivers/gpio/clean
 zephyr/drivers/clean: zephyr/drivers/flash/clean
 zephyr/drivers/clean: zephyr/drivers/serial/clean
 zephyr/drivers/clean: zephyr/drivers/bluetooth/clean
@@ -2390,6 +2394,7 @@ zephyr/drivers/clean: zephyr/drivers/timer/clean
 zephyr/drivers/preinstall: zephyr/drivers/console/preinstall
 zephyr/drivers/preinstall: zephyr/drivers/interrupt_controller/preinstall
 zephyr/drivers/preinstall: zephyr/drivers/clock_control/preinstall
+zephyr/drivers/preinstall: zephyr/drivers/gpio/preinstall
 zephyr/drivers/preinstall: zephyr/drivers/flash/preinstall
 zephyr/drivers/preinstall: zephyr/drivers/serial/preinstall
 zephyr/drivers/preinstall: zephyr/drivers/bluetooth/preinstall
@@ -2453,6 +2458,61 @@ zephyr/drivers/clock_control/preinstall:
 .PHONY : zephyr/drivers/clock_control/preinstall
 
 #=============================================================================
+# Directory level rules for directory zephyr/drivers/gpio
+
+# Convenience name for "all" pass in the directory.
+zephyr/drivers/gpio/all: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
+
+.PHONY : zephyr/drivers/gpio/all
+
+# Convenience name for "clean" pass in the directory.
+zephyr/drivers/gpio/clean: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/clean
+
+.PHONY : zephyr/drivers/gpio/clean
+
+# Convenience name for "preinstall" pass in the directory.
+zephyr/drivers/gpio/preinstall:
+
+.PHONY : zephyr/drivers/gpio/preinstall
+
+#=============================================================================
+# Target rules for target zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir
+
+# All Build rule for target.
+zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
+	$(MAKE) -f zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/build.make zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/depend
+	$(MAKE) -f zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/build.make zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=19 "Built target drivers__gpio"
+.PHONY : zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
+
+# Include target in all.
+all: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
+.PHONY : zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/rule
+
+# Convenience name for target.
+drivers__gpio: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/rule
+
+.PHONY : drivers__gpio
+
+# clean rule for target.
+zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/clean:
+	$(MAKE) -f zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/build.make zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/clean
+.PHONY : zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/clean
+
+# clean rule for target.
+clean: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory zephyr/drivers/flash
 
 # Convenience name for "all" pass in the directory.
@@ -2477,7 +2537,7 @@ zephyr/drivers/flash/preinstall:
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/build.make zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/depend
 	$(MAKE) -f zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/build.make zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=17,18 "Built target drivers__flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=17,18 "Built target drivers__flash"
 .PHONY : zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/all
 
 # Include target in all.
@@ -2487,9 +2547,9 @@ all: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/rule
 
 # Convenience name for target.
@@ -2532,7 +2592,7 @@ zephyr/drivers/serial/preinstall:
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/depend
 	$(MAKE) -f zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build.make zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=19 "Built target drivers__serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=20 "Built target drivers__serial"
 .PHONY : zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all
 
 # Include target in all.
@@ -2542,9 +2602,9 @@ all: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule
 
 # Convenience name for target.
@@ -2623,7 +2683,7 @@ zephyr/drivers/entropy/preinstall:
 zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/build.make zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/depend
 	$(MAKE) -f zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/build.make zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=16 "Built target drivers__entropy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=16 "Built target drivers__entropy"
 .PHONY : zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all
 
 # Include target in all.
@@ -2633,9 +2693,9 @@ all: zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/rule
 
 # Convenience name for target.
@@ -2696,7 +2756,7 @@ zephyr/kernel/preinstall:
 zephyr/kernel/CMakeFiles/kernel.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/kernel/CMakeFiles/kernel.dir/build.make zephyr/kernel/CMakeFiles/kernel.dir/depend
 	$(MAKE) -f zephyr/kernel/CMakeFiles/kernel.dir/build.make zephyr/kernel/CMakeFiles/kernel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32 "Built target kernel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32 "Built target kernel"
 .PHONY : zephyr/kernel/CMakeFiles/kernel.dir/all
 
 # Include target in all.
@@ -2706,9 +2766,9 @@ all: zephyr/kernel/CMakeFiles/kernel.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/kernel/CMakeFiles/kernel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/kernel/CMakeFiles/kernel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/kernel/CMakeFiles/kernel.dir/rule
 
 # Convenience name for target.
@@ -2754,14 +2814,14 @@ zephyr/cmake/flash/preinstall:
 zephyr/cmake/flash/CMakeFiles/flash.dir/all: zephyr/CMakeFiles/kernel_elf.dir/all
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/flash.dir/build.make zephyr/cmake/flash/CMakeFiles/flash.dir/depend
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/flash.dir/build.make zephyr/cmake/flash/CMakeFiles/flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=20 "Built target flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target flash"
 .PHONY : zephyr/cmake/flash/CMakeFiles/flash.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/cmake/flash/CMakeFiles/flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 98
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/flash/CMakeFiles/flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/cmake/flash/CMakeFiles/flash.dir/rule
 
 # Convenience name for target.
@@ -2786,14 +2846,14 @@ clean: zephyr/cmake/flash/CMakeFiles/flash.dir/clean
 zephyr/cmake/flash/CMakeFiles/debug.dir/all: zephyr/CMakeFiles/kernel_elf.dir/all
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/debug.dir/build.make zephyr/cmake/flash/CMakeFiles/debug.dir/depend
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/debug.dir/build.make zephyr/cmake/flash/CMakeFiles/debug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target debug"
 .PHONY : zephyr/cmake/flash/CMakeFiles/debug.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/cmake/flash/CMakeFiles/debug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 98
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/flash/CMakeFiles/debug.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/cmake/flash/CMakeFiles/debug.dir/rule
 
 # Convenience name for target.
@@ -2818,14 +2878,14 @@ clean: zephyr/cmake/flash/CMakeFiles/debug.dir/clean
 zephyr/cmake/flash/CMakeFiles/debugserver.dir/all: zephyr/CMakeFiles/kernel_elf.dir/all
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/debugserver.dir/build.make zephyr/cmake/flash/CMakeFiles/debugserver.dir/depend
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/debugserver.dir/build.make zephyr/cmake/flash/CMakeFiles/debugserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=15 "Built target debugserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=15 "Built target debugserver"
 .PHONY : zephyr/cmake/flash/CMakeFiles/debugserver.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/cmake/flash/CMakeFiles/debugserver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 99
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/flash/CMakeFiles/debugserver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/cmake/flash/CMakeFiles/debugserver.dir/rule
 
 # Convenience name for target.
@@ -2850,14 +2910,14 @@ clean: zephyr/cmake/flash/CMakeFiles/debugserver.dir/clean
 zephyr/cmake/flash/CMakeFiles/attach.dir/all: zephyr/CMakeFiles/kernel_elf.dir/all
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/attach.dir/build.make zephyr/cmake/flash/CMakeFiles/attach.dir/depend
 	$(MAKE) -f zephyr/cmake/flash/CMakeFiles/attach.dir/build.make zephyr/cmake/flash/CMakeFiles/attach.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=14 "Built target attach"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=14 "Built target attach"
 .PHONY : zephyr/cmake/flash/CMakeFiles/attach.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/cmake/flash/CMakeFiles/attach.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 99
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/flash/CMakeFiles/attach.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/cmake/flash/CMakeFiles/attach.dir/rule
 
 # Convenience name for target.
@@ -2900,14 +2960,14 @@ zephyr/cmake/usage/preinstall:
 zephyr/cmake/usage/CMakeFiles/usage.dir/all:
 	$(MAKE) -f zephyr/cmake/usage/CMakeFiles/usage.dir/build.make zephyr/cmake/usage/CMakeFiles/usage.dir/depend
 	$(MAKE) -f zephyr/cmake/usage/CMakeFiles/usage.dir/build.make zephyr/cmake/usage/CMakeFiles/usage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target usage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target usage"
 .PHONY : zephyr/cmake/usage/CMakeFiles/usage.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/cmake/usage/CMakeFiles/usage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/usage/CMakeFiles/usage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/cmake/usage/CMakeFiles/usage.dir/rule
 
 # Convenience name for target.
@@ -2951,14 +3011,14 @@ zephyr/cmake/reports/preinstall:
 zephyr/cmake/reports/CMakeFiles/rom_report.dir/all: zephyr/CMakeFiles/kernel_elf.dir/all
 	$(MAKE) -f zephyr/cmake/reports/CMakeFiles/rom_report.dir/build.make zephyr/cmake/reports/CMakeFiles/rom_report.dir/depend
 	$(MAKE) -f zephyr/cmake/reports/CMakeFiles/rom_report.dir/build.make zephyr/cmake/reports/CMakeFiles/rom_report.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target rom_report"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target rom_report"
 .PHONY : zephyr/cmake/reports/CMakeFiles/rom_report.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/cmake/reports/CMakeFiles/rom_report.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 98
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/reports/CMakeFiles/rom_report.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/cmake/reports/CMakeFiles/rom_report.dir/rule
 
 # Convenience name for target.
@@ -2983,14 +3043,14 @@ clean: zephyr/cmake/reports/CMakeFiles/rom_report.dir/clean
 zephyr/cmake/reports/CMakeFiles/ram_report.dir/all: zephyr/CMakeFiles/kernel_elf.dir/all
 	$(MAKE) -f zephyr/cmake/reports/CMakeFiles/ram_report.dir/build.make zephyr/cmake/reports/CMakeFiles/ram_report.dir/depend
 	$(MAKE) -f zephyr/cmake/reports/CMakeFiles/ram_report.dir/build.make zephyr/cmake/reports/CMakeFiles/ram_report.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num= "Built target ram_report"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num= "Built target ram_report"
 .PHONY : zephyr/cmake/reports/CMakeFiles/ram_report.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/cmake/reports/CMakeFiles/ram_report.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 98
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/cmake/reports/CMakeFiles/ram_report.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : zephyr/cmake/reports/CMakeFiles/ram_report.dir/rule
 
 # Convenience name for target.

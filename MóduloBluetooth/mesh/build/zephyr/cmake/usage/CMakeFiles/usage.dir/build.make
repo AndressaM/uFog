@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Utility rule file for usage.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
 include zephyr/cmake/usage/CMakeFiles/usage.dir/progress.make
 
 zephyr/cmake/usage/CMakeFiles/usage:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/usage && /home/horacio/cmake-3.13.4/bin/cmake -DBOARD_ROOT_SPACE_SEPARATED=/home/horacio/zephyrproject/zephyr -DSHIELD_LIST_SPACE_SEPARATED=frdm_kw41z\ x_nucleo_iks01a1\ x_nucleo_iks01a2 -P /home/horacio/zephyrproject/zephyr/cmake/usage/usage.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/usage && /home/horacio/cmake-3.13.4/bin/cmake -DBOARD_ROOT_SPACE_SEPARATED=/home/horacio/zephyrproject/zephyr -DSHIELD_LIST_SPACE_SEPARATED=frdm_kw41z\ x_nucleo_iks01a1\ x_nucleo_iks01a2 -P /home/horacio/zephyrproject/zephyr/cmake/usage/usage.cmake
 
 usage: zephyr/cmake/usage/CMakeFiles/usage
 usage: zephyr/cmake/usage/CMakeFiles/usage.dir/build.make
@@ -67,10 +67,10 @@ zephyr/cmake/usage/CMakeFiles/usage.dir/build: usage
 .PHONY : zephyr/cmake/usage/CMakeFiles/usage.dir/build
 
 zephyr/cmake/usage/CMakeFiles/usage.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/usage && $(CMAKE_COMMAND) -P CMakeFiles/usage.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/usage && $(CMAKE_COMMAND) -P CMakeFiles/usage.dir/cmake_clean.cmake
 .PHONY : zephyr/cmake/usage/CMakeFiles/usage.dir/clean
 
 zephyr/cmake/usage/CMakeFiles/usage.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr/cmake/usage /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/usage /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/usage/CMakeFiles/usage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/cmake/usage /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/usage /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/usage/CMakeFiles/usage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/cmake/usage/CMakeFiles/usage.dir/depend
 

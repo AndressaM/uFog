@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Include any dependencies generated for this target.
 include zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/depend.make
@@ -58,30 +58,30 @@ include zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__corte
 include zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/flags.make
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj: zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/flags.make
-zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj: /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_core_mpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj   -c /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_core_mpu.c
+zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj: ../../../../../../arch/arm/core/cortex_m/mpu/arm_core_mpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj   -c /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_core_mpu.c
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_core_mpu.c > CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_core_mpu.c > CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.i
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_core_mpu.c -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_core_mpu.c -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.s
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj: zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/flags.make
-zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj: /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_mpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj   -c /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_mpu.c
+zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj: ../../../../../../arch/arm/core/cortex_m/mpu/arm_mpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj   -c /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_mpu.c
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_mpu.c > CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_mpu.c > CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.i
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_mpu.c -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu/arm_mpu.c -o CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.s
 
 # Object files for target arch__arm__core__cortex_m__mpu
 arch__arm__core__cortex_m__mpu_OBJECTS = \
@@ -95,9 +95,9 @@ zephyr/arch/arch/arm/core/cortex_m/mpu/libarch__arm__core__cortex_m__mpu.a: zeph
 zephyr/arch/arch/arm/core/cortex_m/mpu/libarch__arm__core__cortex_m__mpu.a: zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj
 zephyr/arch/arch/arm/core/cortex_m/mpu/libarch__arm__core__cortex_m__mpu.a: zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make
 zephyr/arch/arch/arm/core/cortex_m/mpu/libarch__arm__core__cortex_m__mpu.a: zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libarch__arm__core__cortex_m__mpu.a"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && $(CMAKE_COMMAND) -P CMakeFiles/arch__arm__core__cortex_m__mpu.dir/cmake_clean_target.cmake
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arch__arm__core__cortex_m__mpu.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libarch__arm__core__cortex_m__mpu.a"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && $(CMAKE_COMMAND) -P CMakeFiles/arch__arm__core__cortex_m__mpu.dir/cmake_clean_target.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arch__arm__core__cortex_m__mpu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build: zephyr/arch/arch/arm/core/cortex_m/mpu/libarch__arm__core__cortex_m__mpu.a
@@ -105,10 +105,10 @@ zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu && $(CMAKE_COMMAND) -P CMakeFiles/arch__arm__core__cortex_m__mpu.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu && $(CMAKE_COMMAND) -P CMakeFiles/arch__arm__core__cortex_m__mpu.dir/cmake_clean.cmake
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/clean
 
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/arch/arm/core/cortex_m/mpu /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/depend
 

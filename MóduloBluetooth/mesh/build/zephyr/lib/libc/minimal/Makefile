@@ -48,10 +48,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/lib/libc/minimal/CMakeFiles/progress.marks
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/lib/libc/minimal/CMakeFiles/progress.marks
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/clean
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule
 .PHONY : zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ lib__libc__minimal: zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/ru
 
 # fast build rule for target.
 lib__libc__minimal/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build
 .PHONY : lib__libc__minimal/fast
 
 source/stdlib/atoi.obj: source/stdlib/atoi.c.obj
@@ -131,7 +131,7 @@ source/stdlib/atoi.obj: source/stdlib/atoi.c.obj
 
 # target to build an object file
 source/stdlib/atoi.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/atoi.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/atoi.c.obj
 .PHONY : source/stdlib/atoi.c.obj
 
 source/stdlib/atoi.i: source/stdlib/atoi.c.i
@@ -140,7 +140,7 @@ source/stdlib/atoi.i: source/stdlib/atoi.c.i
 
 # target to preprocess a source file
 source/stdlib/atoi.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/atoi.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/atoi.c.i
 .PHONY : source/stdlib/atoi.c.i
 
 source/stdlib/atoi.s: source/stdlib/atoi.c.s
@@ -149,7 +149,7 @@ source/stdlib/atoi.s: source/stdlib/atoi.c.s
 
 # target to generate assembly for a file
 source/stdlib/atoi.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/atoi.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/atoi.c.s
 .PHONY : source/stdlib/atoi.c.s
 
 source/stdlib/malloc.obj: source/stdlib/malloc.c.obj
@@ -158,7 +158,7 @@ source/stdlib/malloc.obj: source/stdlib/malloc.c.obj
 
 # target to build an object file
 source/stdlib/malloc.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/malloc.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/malloc.c.obj
 .PHONY : source/stdlib/malloc.c.obj
 
 source/stdlib/malloc.i: source/stdlib/malloc.c.i
@@ -167,7 +167,7 @@ source/stdlib/malloc.i: source/stdlib/malloc.c.i
 
 # target to preprocess a source file
 source/stdlib/malloc.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/malloc.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/malloc.c.i
 .PHONY : source/stdlib/malloc.c.i
 
 source/stdlib/malloc.s: source/stdlib/malloc.c.s
@@ -176,7 +176,7 @@ source/stdlib/malloc.s: source/stdlib/malloc.c.s
 
 # target to generate assembly for a file
 source/stdlib/malloc.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/malloc.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/malloc.c.s
 .PHONY : source/stdlib/malloc.c.s
 
 source/stdlib/strtol.obj: source/stdlib/strtol.c.obj
@@ -185,7 +185,7 @@ source/stdlib/strtol.obj: source/stdlib/strtol.c.obj
 
 # target to build an object file
 source/stdlib/strtol.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtol.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtol.c.obj
 .PHONY : source/stdlib/strtol.c.obj
 
 source/stdlib/strtol.i: source/stdlib/strtol.c.i
@@ -194,7 +194,7 @@ source/stdlib/strtol.i: source/stdlib/strtol.c.i
 
 # target to preprocess a source file
 source/stdlib/strtol.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtol.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtol.c.i
 .PHONY : source/stdlib/strtol.c.i
 
 source/stdlib/strtol.s: source/stdlib/strtol.c.s
@@ -203,7 +203,7 @@ source/stdlib/strtol.s: source/stdlib/strtol.c.s
 
 # target to generate assembly for a file
 source/stdlib/strtol.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtol.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtol.c.s
 .PHONY : source/stdlib/strtol.c.s
 
 source/stdlib/strtoul.obj: source/stdlib/strtoul.c.obj
@@ -212,7 +212,7 @@ source/stdlib/strtoul.obj: source/stdlib/strtoul.c.obj
 
 # target to build an object file
 source/stdlib/strtoul.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtoul.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtoul.c.obj
 .PHONY : source/stdlib/strtoul.c.obj
 
 source/stdlib/strtoul.i: source/stdlib/strtoul.c.i
@@ -221,7 +221,7 @@ source/stdlib/strtoul.i: source/stdlib/strtoul.c.i
 
 # target to preprocess a source file
 source/stdlib/strtoul.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtoul.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtoul.c.i
 .PHONY : source/stdlib/strtoul.c.i
 
 source/stdlib/strtoul.s: source/stdlib/strtoul.c.s
@@ -230,7 +230,7 @@ source/stdlib/strtoul.s: source/stdlib/strtoul.c.s
 
 # target to generate assembly for a file
 source/stdlib/strtoul.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtoul.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdlib/strtoul.c.s
 .PHONY : source/stdlib/strtoul.c.s
 
 source/stdout/fprintf.obj: source/stdout/fprintf.c.obj
@@ -239,7 +239,7 @@ source/stdout/fprintf.obj: source/stdout/fprintf.c.obj
 
 # target to build an object file
 source/stdout/fprintf.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/fprintf.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/fprintf.c.obj
 .PHONY : source/stdout/fprintf.c.obj
 
 source/stdout/fprintf.i: source/stdout/fprintf.c.i
@@ -248,7 +248,7 @@ source/stdout/fprintf.i: source/stdout/fprintf.c.i
 
 # target to preprocess a source file
 source/stdout/fprintf.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/fprintf.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/fprintf.c.i
 .PHONY : source/stdout/fprintf.c.i
 
 source/stdout/fprintf.s: source/stdout/fprintf.c.s
@@ -257,7 +257,7 @@ source/stdout/fprintf.s: source/stdout/fprintf.c.s
 
 # target to generate assembly for a file
 source/stdout/fprintf.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/fprintf.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/fprintf.c.s
 .PHONY : source/stdout/fprintf.c.s
 
 source/stdout/prf.obj: source/stdout/prf.c.obj
@@ -266,7 +266,7 @@ source/stdout/prf.obj: source/stdout/prf.c.obj
 
 # target to build an object file
 source/stdout/prf.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/prf.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/prf.c.obj
 .PHONY : source/stdout/prf.c.obj
 
 source/stdout/prf.i: source/stdout/prf.c.i
@@ -275,7 +275,7 @@ source/stdout/prf.i: source/stdout/prf.c.i
 
 # target to preprocess a source file
 source/stdout/prf.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/prf.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/prf.c.i
 .PHONY : source/stdout/prf.c.i
 
 source/stdout/prf.s: source/stdout/prf.c.s
@@ -284,7 +284,7 @@ source/stdout/prf.s: source/stdout/prf.c.s
 
 # target to generate assembly for a file
 source/stdout/prf.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/prf.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/prf.c.s
 .PHONY : source/stdout/prf.c.s
 
 source/stdout/sprintf.obj: source/stdout/sprintf.c.obj
@@ -293,7 +293,7 @@ source/stdout/sprintf.obj: source/stdout/sprintf.c.obj
 
 # target to build an object file
 source/stdout/sprintf.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/sprintf.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/sprintf.c.obj
 .PHONY : source/stdout/sprintf.c.obj
 
 source/stdout/sprintf.i: source/stdout/sprintf.c.i
@@ -302,7 +302,7 @@ source/stdout/sprintf.i: source/stdout/sprintf.c.i
 
 # target to preprocess a source file
 source/stdout/sprintf.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/sprintf.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/sprintf.c.i
 .PHONY : source/stdout/sprintf.c.i
 
 source/stdout/sprintf.s: source/stdout/sprintf.c.s
@@ -311,7 +311,7 @@ source/stdout/sprintf.s: source/stdout/sprintf.c.s
 
 # target to generate assembly for a file
 source/stdout/sprintf.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/sprintf.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/sprintf.c.s
 .PHONY : source/stdout/sprintf.c.s
 
 source/stdout/stdout_console.obj: source/stdout/stdout_console.c.obj
@@ -320,7 +320,7 @@ source/stdout/stdout_console.obj: source/stdout/stdout_console.c.obj
 
 # target to build an object file
 source/stdout/stdout_console.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/stdout_console.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/stdout_console.c.obj
 .PHONY : source/stdout/stdout_console.c.obj
 
 source/stdout/stdout_console.i: source/stdout/stdout_console.c.i
@@ -329,7 +329,7 @@ source/stdout/stdout_console.i: source/stdout/stdout_console.c.i
 
 # target to preprocess a source file
 source/stdout/stdout_console.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/stdout_console.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/stdout_console.c.i
 .PHONY : source/stdout/stdout_console.c.i
 
 source/stdout/stdout_console.s: source/stdout/stdout_console.c.s
@@ -338,7 +338,7 @@ source/stdout/stdout_console.s: source/stdout/stdout_console.c.s
 
 # target to generate assembly for a file
 source/stdout/stdout_console.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/stdout_console.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/stdout/stdout_console.c.s
 .PHONY : source/stdout/stdout_console.c.s
 
 source/string/string.obj: source/string/string.c.obj
@@ -347,7 +347,7 @@ source/string/string.obj: source/string/string.c.obj
 
 # target to build an object file
 source/string/string.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/string.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/string.c.obj
 .PHONY : source/string/string.c.obj
 
 source/string/string.i: source/string/string.c.i
@@ -356,7 +356,7 @@ source/string/string.i: source/string/string.c.i
 
 # target to preprocess a source file
 source/string/string.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/string.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/string.c.i
 .PHONY : source/string/string.c.i
 
 source/string/string.s: source/string/string.c.s
@@ -365,7 +365,7 @@ source/string/string.s: source/string/string.c.s
 
 # target to generate assembly for a file
 source/string/string.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/string.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/string.c.s
 .PHONY : source/string/string.c.s
 
 source/string/strncasecmp.obj: source/string/strncasecmp.c.obj
@@ -374,7 +374,7 @@ source/string/strncasecmp.obj: source/string/strncasecmp.c.obj
 
 # target to build an object file
 source/string/strncasecmp.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strncasecmp.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strncasecmp.c.obj
 .PHONY : source/string/strncasecmp.c.obj
 
 source/string/strncasecmp.i: source/string/strncasecmp.c.i
@@ -383,7 +383,7 @@ source/string/strncasecmp.i: source/string/strncasecmp.c.i
 
 # target to preprocess a source file
 source/string/strncasecmp.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strncasecmp.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strncasecmp.c.i
 .PHONY : source/string/strncasecmp.c.i
 
 source/string/strncasecmp.s: source/string/strncasecmp.c.s
@@ -392,7 +392,7 @@ source/string/strncasecmp.s: source/string/strncasecmp.c.s
 
 # target to generate assembly for a file
 source/string/strncasecmp.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strncasecmp.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strncasecmp.c.s
 .PHONY : source/string/strncasecmp.c.s
 
 source/string/strstr.obj: source/string/strstr.c.obj
@@ -401,7 +401,7 @@ source/string/strstr.obj: source/string/strstr.c.obj
 
 # target to build an object file
 source/string/strstr.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strstr.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strstr.c.obj
 .PHONY : source/string/strstr.c.obj
 
 source/string/strstr.i: source/string/strstr.c.i
@@ -410,7 +410,7 @@ source/string/strstr.i: source/string/strstr.c.i
 
 # target to preprocess a source file
 source/string/strstr.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strstr.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strstr.c.i
 .PHONY : source/string/strstr.c.i
 
 source/string/strstr.s: source/string/strstr.c.s
@@ -419,7 +419,7 @@ source/string/strstr.s: source/string/strstr.c.s
 
 # target to generate assembly for a file
 source/string/strstr.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strstr.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/build.make zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/source/string/strstr.c.s
 .PHONY : source/string/strstr.c.s
 
 # Help Target
@@ -475,6 +475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

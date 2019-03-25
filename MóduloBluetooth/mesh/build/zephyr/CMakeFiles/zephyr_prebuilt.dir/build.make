@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Include any dependencies generated for this target.
 include zephyr/CMakeFiles/zephyr_prebuilt.dir/depend.make
@@ -58,17 +58,17 @@ include zephyr/CMakeFiles/zephyr_prebuilt.dir/progress.make
 include zephyr/CMakeFiles/zephyr_prebuilt.dir/flags.make
 
 zephyr/CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.obj: zephyr/CMakeFiles/zephyr_prebuilt.dir/flags.make
-zephyr/CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.obj: /home/horacio/zephyrproject/zephyr/misc/empty_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.obj   -c /home/horacio/zephyrproject/zephyr/misc/empty_file.c
+zephyr/CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.obj: ../../../../../../misc/empty_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.obj   -c /home/horacio/zephyrproject/zephyr/misc/empty_file.c
 
 zephyr/CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/misc/empty_file.c > CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/misc/empty_file.c > CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.i
 
 zephyr/CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/misc/empty_file.c -o CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/misc/empty_file.c -o CMakeFiles/zephyr_prebuilt.dir/misc/empty_file.c.s
 
 # Object files for target zephyr_prebuilt
 zephyr_prebuilt_OBJECTS = \
@@ -91,6 +91,7 @@ zephyr/zephyr_prebuilt.elf: zephyr/subsys/bluetooth/host/libsubsys__bluetooth__h
 zephyr/zephyr_prebuilt.elf: zephyr/subsys/bluetooth/host/mesh/libsubsys__bluetooth__host__mesh.a
 zephyr/zephyr_prebuilt.elf: zephyr/subsys/bluetooth/controller/libsubsys__bluetooth__controller.a
 zephyr/zephyr_prebuilt.elf: zephyr/subsys/net/libsubsys__net.a
+zephyr/zephyr_prebuilt.elf: zephyr/drivers/gpio/libdrivers__gpio.a
 zephyr/zephyr_prebuilt.elf: zephyr/drivers/flash/libdrivers__flash.a
 zephyr/zephyr_prebuilt.elf: zephyr/drivers/serial/libdrivers__serial.a
 zephyr/zephyr_prebuilt.elf: zephyr/drivers/entropy/libdrivers__entropy.a
@@ -98,8 +99,8 @@ zephyr/zephyr_prebuilt.elf: zephyr/kernel/libkernel.a
 zephyr/zephyr_prebuilt.elf: zephyr/CMakeFiles/offsets.dir/arch/arm/core/offsets/offsets.c.obj
 zephyr/zephyr_prebuilt.elf: zephyr/linker.cmd
 zephyr/zephyr_prebuilt.elf: zephyr/CMakeFiles/zephyr_prebuilt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable zephyr_prebuilt.elf"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zephyr_prebuilt.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable zephyr_prebuilt.elf"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zephyr_prebuilt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 zephyr/CMakeFiles/zephyr_prebuilt.dir/build: zephyr/zephyr_prebuilt.elf
@@ -107,10 +108,10 @@ zephyr/CMakeFiles/zephyr_prebuilt.dir/build: zephyr/zephyr_prebuilt.elf
 .PHONY : zephyr/CMakeFiles/zephyr_prebuilt.dir/build
 
 zephyr/CMakeFiles/zephyr_prebuilt.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && $(CMAKE_COMMAND) -P CMakeFiles/zephyr_prebuilt.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && $(CMAKE_COMMAND) -P CMakeFiles/zephyr_prebuilt.dir/cmake_clean.cmake
 .PHONY : zephyr/CMakeFiles/zephyr_prebuilt.dir/clean
 
 zephyr/CMakeFiles/zephyr_prebuilt.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/CMakeFiles/zephyr_prebuilt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/CMakeFiles/zephyr_prebuilt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/CMakeFiles/zephyr_prebuilt.dir/depend
 

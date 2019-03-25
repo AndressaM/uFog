@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Utility rule file for syscall_macros_h_target.
 
@@ -56,9 +56,9 @@ include zephyr/CMakeFiles/syscall_macros_h_target.dir/progress.make
 zephyr/CMakeFiles/syscall_macros_h_target: zephyr/include/generated/syscall_macros.h
 
 
-zephyr/include/generated/syscall_macros.h: /home/horacio/zephyrproject/zephyr/scripts/gen_syscall_header.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/generated/syscall_macros.h"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/gen_syscall_header.py > /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/include/generated/syscall_macros.h
+zephyr/include/generated/syscall_macros.h: ../../../../../../scripts/gen_syscall_header.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/generated/syscall_macros.h"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/gen_syscall_header.py > /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/include/generated/syscall_macros.h
 
 syscall_macros_h_target: zephyr/CMakeFiles/syscall_macros_h_target
 syscall_macros_h_target: zephyr/include/generated/syscall_macros.h
@@ -72,10 +72,10 @@ zephyr/CMakeFiles/syscall_macros_h_target.dir/build: syscall_macros_h_target
 .PHONY : zephyr/CMakeFiles/syscall_macros_h_target.dir/build
 
 zephyr/CMakeFiles/syscall_macros_h_target.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr && $(CMAKE_COMMAND) -P CMakeFiles/syscall_macros_h_target.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr && $(CMAKE_COMMAND) -P CMakeFiles/syscall_macros_h_target.dir/cmake_clean.cmake
 .PHONY : zephyr/CMakeFiles/syscall_macros_h_target.dir/clean
 
 zephyr/CMakeFiles/syscall_macros_h_target.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/CMakeFiles/syscall_macros_h_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/CMakeFiles/syscall_macros_h_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/CMakeFiles/syscall_macros_h_target.dir/depend
 

@@ -1,9 +1,9 @@
-/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/Kconfig.modules
 /home/horacio/zephyrproject/zephyr/Kconfig
 /home/horacio/zephyrproject/zephyr/arch/arm/Kconfig
 /home/horacio/zephyrproject/zephyr/boards/arm/nrf52_pca10040/Kconfig
 /home/horacio/zephyrproject/zephyr/boards/arm/nrf52_pca10040/Kconfig.board
 /home/horacio/zephyrproject/zephyr/boards/arm/nrf52_pca10040/Kconfig.defconfig
+/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/Kconfig.modules
 /home/horacio/zephyrproject/zephyr/soc/Kconfig
 /home/horacio/zephyrproject/zephyr/soc/arm/Kconfig
 /home/horacio/zephyrproject/zephyr/soc/arm/arm/Kconfig

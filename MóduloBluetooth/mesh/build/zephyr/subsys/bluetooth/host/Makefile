@@ -48,10 +48,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/host/CMakeFiles/progress.marks
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/host/CMakeFiles/progress.marks
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/clean
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule
 .PHONY : zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ subsys__bluetooth__host: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetoo
 
 # fast build rule for target.
 subsys__bluetooth__host/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build
 .PHONY : subsys__bluetooth__host/fast
 
 att.obj: att.c.obj
@@ -131,7 +131,7 @@ att.obj: att.c.obj
 
 # target to build an object file
 att.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.obj
 .PHONY : att.c.obj
 
 att.i: att.c.i
@@ -140,7 +140,7 @@ att.i: att.c.i
 
 # target to preprocess a source file
 att.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.i
 .PHONY : att.c.i
 
 att.s: att.c.s
@@ -149,7 +149,7 @@ att.s: att.c.s
 
 # target to generate assembly for a file
 att.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.s
 .PHONY : att.c.s
 
 conn.obj: conn.c.obj
@@ -158,7 +158,7 @@ conn.obj: conn.c.obj
 
 # target to build an object file
 conn.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj
 .PHONY : conn.c.obj
 
 conn.i: conn.c.i
@@ -167,7 +167,7 @@ conn.i: conn.c.i
 
 # target to preprocess a source file
 conn.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.i
 .PHONY : conn.c.i
 
 conn.s: conn.c.s
@@ -176,7 +176,7 @@ conn.s: conn.c.s
 
 # target to generate assembly for a file
 conn.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.s
 .PHONY : conn.c.s
 
 gatt.obj: gatt.c.obj
@@ -185,7 +185,7 @@ gatt.obj: gatt.c.obj
 
 # target to build an object file
 gatt.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj
 .PHONY : gatt.c.obj
 
 gatt.i: gatt.c.i
@@ -194,7 +194,7 @@ gatt.i: gatt.c.i
 
 # target to preprocess a source file
 gatt.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.i
 .PHONY : gatt.c.i
 
 gatt.s: gatt.c.s
@@ -203,7 +203,7 @@ gatt.s: gatt.c.s
 
 # target to generate assembly for a file
 gatt.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.s
 .PHONY : gatt.c.s
 
 hci_core.obj: hci_core.c.obj
@@ -212,7 +212,7 @@ hci_core.obj: hci_core.c.obj
 
 # target to build an object file
 hci_core.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj
 .PHONY : hci_core.c.obj
 
 hci_core.i: hci_core.c.i
@@ -221,7 +221,7 @@ hci_core.i: hci_core.c.i
 
 # target to preprocess a source file
 hci_core.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.i
 .PHONY : hci_core.c.i
 
 hci_core.s: hci_core.c.s
@@ -230,7 +230,7 @@ hci_core.s: hci_core.c.s
 
 # target to generate assembly for a file
 hci_core.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.s
 .PHONY : hci_core.c.s
 
 hci_ecc.obj: hci_ecc.c.obj
@@ -239,7 +239,7 @@ hci_ecc.obj: hci_ecc.c.obj
 
 # target to build an object file
 hci_ecc.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_ecc.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_ecc.c.obj
 .PHONY : hci_ecc.c.obj
 
 hci_ecc.i: hci_ecc.c.i
@@ -248,7 +248,7 @@ hci_ecc.i: hci_ecc.c.i
 
 # target to preprocess a source file
 hci_ecc.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_ecc.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_ecc.c.i
 .PHONY : hci_ecc.c.i
 
 hci_ecc.s: hci_ecc.c.s
@@ -257,7 +257,7 @@ hci_ecc.s: hci_ecc.c.s
 
 # target to generate assembly for a file
 hci_ecc.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_ecc.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_ecc.c.s
 .PHONY : hci_ecc.c.s
 
 l2cap.obj: l2cap.c.obj
@@ -266,7 +266,7 @@ l2cap.obj: l2cap.c.obj
 
 # target to build an object file
 l2cap.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj
 .PHONY : l2cap.c.obj
 
 l2cap.i: l2cap.c.i
@@ -275,7 +275,7 @@ l2cap.i: l2cap.c.i
 
 # target to preprocess a source file
 l2cap.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.i
 .PHONY : l2cap.c.i
 
 l2cap.s: l2cap.c.s
@@ -284,7 +284,7 @@ l2cap.s: l2cap.c.s
 
 # target to generate assembly for a file
 l2cap.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.s
 .PHONY : l2cap.c.s
 
 settings.obj: settings.c.obj
@@ -293,7 +293,7 @@ settings.obj: settings.c.obj
 
 # target to build an object file
 settings.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/settings.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/settings.c.obj
 .PHONY : settings.c.obj
 
 settings.i: settings.c.i
@@ -302,7 +302,7 @@ settings.i: settings.c.i
 
 # target to preprocess a source file
 settings.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/settings.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/settings.c.i
 .PHONY : settings.c.i
 
 settings.s: settings.c.s
@@ -311,7 +311,7 @@ settings.s: settings.c.s
 
 # target to generate assembly for a file
 settings.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/settings.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/settings.c.s
 .PHONY : settings.c.s
 
 smp_null.obj: smp_null.c.obj
@@ -320,7 +320,7 @@ smp_null.obj: smp_null.c.obj
 
 # target to build an object file
 smp_null.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj
 .PHONY : smp_null.c.obj
 
 smp_null.i: smp_null.c.i
@@ -329,7 +329,7 @@ smp_null.i: smp_null.c.i
 
 # target to preprocess a source file
 smp_null.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.i
 .PHONY : smp_null.c.i
 
 smp_null.s: smp_null.c.s
@@ -338,7 +338,7 @@ smp_null.s: smp_null.c.s
 
 # target to generate assembly for a file
 smp_null.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.s
 .PHONY : smp_null.c.s
 
 uuid.obj: uuid.c.obj
@@ -347,7 +347,7 @@ uuid.obj: uuid.c.obj
 
 # target to build an object file
 uuid.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj
 .PHONY : uuid.c.obj
 
 uuid.i: uuid.c.i
@@ -356,7 +356,7 @@ uuid.i: uuid.c.i
 
 # target to preprocess a source file
 uuid.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.i
 .PHONY : uuid.c.i
 
 uuid.s: uuid.c.s
@@ -365,7 +365,7 @@ uuid.s: uuid.c.s
 
 # target to generate assembly for a file
 uuid.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.s
 .PHONY : uuid.c.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

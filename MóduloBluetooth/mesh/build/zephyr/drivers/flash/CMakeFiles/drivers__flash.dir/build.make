@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Include any dependencies generated for this target.
 include zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/depend.make
@@ -58,30 +58,30 @@ include zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/progress.make
 include zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flags.make
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.obj: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flags.make
-zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.obj: /home/horacio/zephyrproject/zephyr/drivers/flash/soc_flash_nrf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.obj   -c /home/horacio/zephyrproject/zephyr/drivers/flash/soc_flash_nrf.c
+zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.obj: ../../../../../../drivers/flash/soc_flash_nrf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.obj   -c /home/horacio/zephyrproject/zephyr/drivers/flash/soc_flash_nrf.c
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/drivers/flash/soc_flash_nrf.c > CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/drivers/flash/soc_flash_nrf.c > CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.i
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/drivers/flash/soc_flash_nrf.c -o CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/drivers/flash/soc_flash_nrf.c -o CMakeFiles/drivers__flash.dir/soc_flash_nrf.c.s
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flags.make
-zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj: /home/horacio/zephyrproject/zephyr/drivers/flash/flash_page_layout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj   -c /home/horacio/zephyrproject/zephyr/drivers/flash/flash_page_layout.c
+zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj: ../../../../../../drivers/flash/flash_page_layout.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj   -c /home/horacio/zephyrproject/zephyr/drivers/flash/flash_page_layout.c
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drivers__flash.dir/flash_page_layout.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/drivers/flash/flash_page_layout.c > CMakeFiles/drivers__flash.dir/flash_page_layout.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/drivers/flash/flash_page_layout.c > CMakeFiles/drivers__flash.dir/flash_page_layout.c.i
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drivers__flash.dir/flash_page_layout.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/drivers/flash/flash_page_layout.c -o CMakeFiles/drivers__flash.dir/flash_page_layout.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/drivers/flash/flash_page_layout.c -o CMakeFiles/drivers__flash.dir/flash_page_layout.c.s
 
 # Object files for target drivers__flash
 drivers__flash_OBJECTS = \
@@ -95,9 +95,9 @@ zephyr/drivers/flash/libdrivers__flash.a: zephyr/drivers/flash/CMakeFiles/driver
 zephyr/drivers/flash/libdrivers__flash.a: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/flash_page_layout.c.obj
 zephyr/drivers/flash/libdrivers__flash.a: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/build.make
 zephyr/drivers/flash/libdrivers__flash.a: zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libdrivers__flash.a"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && $(CMAKE_COMMAND) -P CMakeFiles/drivers__flash.dir/cmake_clean_target.cmake
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drivers__flash.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libdrivers__flash.a"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && $(CMAKE_COMMAND) -P CMakeFiles/drivers__flash.dir/cmake_clean_target.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drivers__flash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/build: zephyr/drivers/flash/libdrivers__flash.a
@@ -105,10 +105,10 @@ zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/build: zephyr/drivers/flash/l
 .PHONY : zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/build
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash && $(CMAKE_COMMAND) -P CMakeFiles/drivers__flash.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash && $(CMAKE_COMMAND) -P CMakeFiles/drivers__flash.dir/cmake_clean.cmake
 .PHONY : zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/clean
 
 zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr/drivers/flash /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/drivers/flash /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/drivers/flash/CMakeFiles/drivers__flash.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/src/main.c" "/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles/app.dir/src/main.c.obj"
+  "/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/src/main.c" "/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles/app.dir/src/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

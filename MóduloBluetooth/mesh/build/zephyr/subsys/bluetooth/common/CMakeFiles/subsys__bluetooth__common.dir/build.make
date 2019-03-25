@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Include any dependencies generated for this target.
 include zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/depend.make
@@ -58,30 +58,30 @@ include zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/
 include zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/flags.make
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj: zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/flags.make
-zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj: /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/dummy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj   -c /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/dummy.c
+zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj: ../../../../../../subsys/bluetooth/common/dummy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj   -c /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/dummy.c
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subsys__bluetooth__common.dir/dummy.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/dummy.c > CMakeFiles/subsys__bluetooth__common.dir/dummy.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/dummy.c > CMakeFiles/subsys__bluetooth__common.dir/dummy.c.i
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subsys__bluetooth__common.dir/dummy.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/dummy.c -o CMakeFiles/subsys__bluetooth__common.dir/dummy.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/dummy.c -o CMakeFiles/subsys__bluetooth__common.dir/dummy.c.s
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj: zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/flags.make
-zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj: /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__common.dir/log.c.obj   -c /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/log.c
+zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj: ../../../../../../subsys/bluetooth/common/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && ccache /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__common.dir/log.c.obj   -c /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/log.c
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subsys__bluetooth__common.dir/log.c.i"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/log.c > CMakeFiles/subsys__bluetooth__common.dir/log.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/log.c > CMakeFiles/subsys__bluetooth__common.dir/log.c.i
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subsys__bluetooth__common.dir/log.c.s"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/log.c -o CMakeFiles/subsys__bluetooth__common.dir/log.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common/log.c -o CMakeFiles/subsys__bluetooth__common.dir/log.c.s
 
 # Object files for target subsys__bluetooth__common
 subsys__bluetooth__common_OBJECTS = \
@@ -95,9 +95,9 @@ zephyr/subsys/bluetooth/common/libsubsys__bluetooth__common.a: zephyr/subsys/blu
 zephyr/subsys/bluetooth/common/libsubsys__bluetooth__common.a: zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj
 zephyr/subsys/bluetooth/common/libsubsys__bluetooth__common.a: zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make
 zephyr/subsys/bluetooth/common/libsubsys__bluetooth__common.a: zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libsubsys__bluetooth__common.a"
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && $(CMAKE_COMMAND) -P CMakeFiles/subsys__bluetooth__common.dir/cmake_clean_target.cmake
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/subsys__bluetooth__common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libsubsys__bluetooth__common.a"
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && $(CMAKE_COMMAND) -P CMakeFiles/subsys__bluetooth__common.dir/cmake_clean_target.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/subsys__bluetooth__common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build: zephyr/subsys/bluetooth/common/libsubsys__bluetooth__common.a
@@ -105,10 +105,10 @@ zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build: z
 .PHONY : zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common && $(CMAKE_COMMAND) -P CMakeFiles/subsys__bluetooth__common.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common && $(CMAKE_COMMAND) -P CMakeFiles/subsys__bluetooth__common.dir/cmake_clean.cmake
 .PHONY : zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/clean
 
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/subsys/bluetooth/common /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/depend
 

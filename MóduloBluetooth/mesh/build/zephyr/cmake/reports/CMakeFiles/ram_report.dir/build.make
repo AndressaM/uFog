@@ -43,10 +43,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 # Utility rule file for ram_report.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
 include zephyr/cmake/reports/CMakeFiles/ram_report.dir/progress.make
 
 zephyr/cmake/reports/CMakeFiles/ram_report: zephyr/zephyr.elf
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/reports && /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/footprint/size_report -r --objdump /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump --objcopy /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy --nm /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm -o /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/reports && /home/horacio/anaconda3/bin/python /home/horacio/zephyrproject/zephyr/scripts/footprint/size_report -r --objdump /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump --objcopy /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy --nm /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm -o /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr
 
 ram_report: zephyr/cmake/reports/CMakeFiles/ram_report
 ram_report: zephyr/cmake/reports/CMakeFiles/ram_report.dir/build.make
@@ -67,10 +67,10 @@ zephyr/cmake/reports/CMakeFiles/ram_report.dir/build: ram_report
 .PHONY : zephyr/cmake/reports/CMakeFiles/ram_report.dir/build
 
 zephyr/cmake/reports/CMakeFiles/ram_report.dir/clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/reports && $(CMAKE_COMMAND) -P CMakeFiles/ram_report.dir/cmake_clean.cmake
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/reports && $(CMAKE_COMMAND) -P CMakeFiles/ram_report.dir/cmake_clean.cmake
 .PHONY : zephyr/cmake/reports/CMakeFiles/ram_report.dir/clean
 
 zephyr/cmake/reports/CMakeFiles/ram_report.dir/depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/Documentos/uFog/MóduloBluetooth/mesh /home/horacio/zephyrproject/zephyr/cmake/reports /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/reports /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/cmake/reports/CMakeFiles/ram_report.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app /home/horacio/zephyrproject/zephyr/cmake/reports /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/reports /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/cmake/reports/CMakeFiles/ram_report.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zephyr/cmake/reports/CMakeFiles/ram_report.dir/depend
 

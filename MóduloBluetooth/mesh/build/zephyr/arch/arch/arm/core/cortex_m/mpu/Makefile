@@ -48,10 +48,10 @@ RM = /home/horacio/cmake-3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh
+CMAKE_SOURCE_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build
+CMAKE_BINARY_DIR = /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/progress.marks
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build/CMakeFiles 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/progress.marks
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/clean
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/preinstall
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule
 .PHONY : zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ arch__arm__core__cortex_m__mpu: zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFile
 
 # fast build rule for target.
 arch__arm__core__cortex_m__mpu/fast:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build
 .PHONY : arch__arm__core__cortex_m__mpu/fast
 
 arm_core_mpu.obj: arm_core_mpu.c.obj
@@ -131,7 +131,7 @@ arm_core_mpu.obj: arm_core_mpu.c.obj
 
 # target to build an object file
 arm_core_mpu.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.obj
 .PHONY : arm_core_mpu.c.obj
 
 arm_core_mpu.i: arm_core_mpu.c.i
@@ -140,7 +140,7 @@ arm_core_mpu.i: arm_core_mpu.c.i
 
 # target to preprocess a source file
 arm_core_mpu.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.i
 .PHONY : arm_core_mpu.c.i
 
 arm_core_mpu.s: arm_core_mpu.c.s
@@ -149,7 +149,7 @@ arm_core_mpu.s: arm_core_mpu.c.s
 
 # target to generate assembly for a file
 arm_core_mpu.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_core_mpu.c.s
 .PHONY : arm_core_mpu.c.s
 
 arm_mpu.obj: arm_mpu.c.obj
@@ -158,7 +158,7 @@ arm_mpu.obj: arm_mpu.c.obj
 
 # target to build an object file
 arm_mpu.c.obj:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.obj
 .PHONY : arm_mpu.c.obj
 
 arm_mpu.i: arm_mpu.c.i
@@ -167,7 +167,7 @@ arm_mpu.i: arm_mpu.c.i
 
 # target to preprocess a source file
 arm_mpu.c.i:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.i
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.i
 .PHONY : arm_mpu.c.i
 
 arm_mpu.s: arm_mpu.c.s
@@ -176,7 +176,7 @@ arm_mpu.s: arm_mpu.c.s
 
 # target to generate assembly for a file
 arm_mpu.c.s:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.s
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(MAKE) -f zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/build.make zephyr/arch/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/arm_mpu.c.s
 .PHONY : arm_mpu.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/horacio/Documentos/uFog/MóduloBluetooth/mesh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
