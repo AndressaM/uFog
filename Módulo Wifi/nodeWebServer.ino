@@ -1,6 +1,5 @@
 #include <ESP8266WiFi.h>
-//char *ssid = "IEEERAS";
-//char *password = "soolucassabe";
+
 char *ssid = "UFAL";
 char *password = NULL;
 char *name = "ESP";
