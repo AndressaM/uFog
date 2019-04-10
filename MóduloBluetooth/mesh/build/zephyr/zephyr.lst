@@ -5736,21 +5736,19 @@ static int write_op(void *context)
     2d30:	3b9aca00 	.word	0x3b9aca00
 
 00002d34 <gen_onoff_status>:
+	gen_onoff_set_unack(model, ctx, buf);
+	gen_onoff_get(model, ctx, buf);
 }
 
-static void gen_onoff_status(struct bt_mesh_model *model,
-			     struct bt_mesh_msg_ctx *ctx,
-			     struct net_buf_simple *buf)
+static void gen_onoff_status(struct bt_mesh_model *model, struct bt_mesh_msg_ctx *ctx, struct net_buf_simple *buf)
 {
     2d34:	b570      	push	{r4, r5, r6, lr}
     2d36:	4606      	mov	r6, r0
-	u8_t	state;
-
-	state = net_buf_simple_pull_u8(buf);
+	u8_t	state = net_buf_simple_pull_u8(buf);
     2d38:	4610      	mov	r0, r2
 {
     2d3a:	460c      	mov	r4, r1
-	state = net_buf_simple_pull_u8(buf);
+	u8_t	state = net_buf_simple_pull_u8(buf);
     2d3c:	f01f fca2 	bl	22684 <net_buf_simple_pull_u8>
     2d40:	4605      	mov	r5, r0
 
@@ -5777,15 +5775,14 @@ static void gen_onoff_status(struct bt_mesh_model *model,
 static void prov_complete(u16_t net_idx, u16_t addr)
 {
     2d5c:	b510      	push	{r4, lr}
-	printk("provisioning complete for net_idx 0x%04x addr 0x%04x\n",
+	printk("provisioning complete for net_idx 0x%04x addr 0x%04x\n", net_idx, addr);
     2d5e:	460a      	mov	r2, r1
 {
     2d60:	460c      	mov	r4, r1
-	printk("provisioning complete for net_idx 0x%04x addr 0x%04x\n",
+	printk("provisioning complete for net_idx 0x%04x addr 0x%04x\n", net_idx, addr);
     2d62:	4601      	mov	r1, r0
     2d64:	4802      	ldr	r0, [pc, #8]	; (2d70 <prov_complete+0x14>)
     2d66:	f01a fa25 	bl	1d1b4 <printk>
-	       net_idx, addr);
 	primary_addr = addr;
     2d6a:	4b02      	ldr	r3, [pc, #8]	; (2d74 <prov_complete+0x18>)
     2d6c:	801c      	strh	r4, [r3, #0]
@@ -5876,16 +5873,17 @@ static void bt_ready(int err)
     2df4:	b513      	push	{r0, r1, r4, lr}
 	struct bt_le_oob oob;
 
-	if (err) {
+	if (err) 
     2df6:	4601      	mov	r1, r0
     2df8:	b120      	cbz	r0, 2e04 <bt_ready+0x10>
+	{
 		printk("Bluetooth init failed (err %d)\n", err);
     2dfa:	4814      	ldr	r0, [pc, #80]	; (2e4c <bt_ready+0x58>)
-
 	printk("Bluetooth initialized\n");
 
 	err = bt_mesh_init(&prov, &comp);
-	if (err) {
+	if (err) 
+	{
 		printk("Initializing mesh failed (err %d)\n", err);
     2dfc:	f01a f9da 	bl	1d1b4 <printk>
 	}
@@ -5903,7 +5901,7 @@ static void bt_ready(int err)
     2e0a:	4912      	ldr	r1, [pc, #72]	; (2e54 <bt_ready+0x60>)
     2e0c:	4812      	ldr	r0, [pc, #72]	; (2e58 <bt_ready+0x64>)
     2e0e:	f01d fcbd 	bl	2078c <bt_mesh_init>
-	if (err) {
+	if (err) 
     2e12:	4604      	mov	r4, r0
     2e14:	b110      	cbz	r0, 2e1c <bt_ready+0x28>
 		printk("Initializing mesh failed (err %d)\n", err);
@@ -5957,66 +5955,65 @@ K_SYSCALL_DECLARE0(K_SYSCALL_K_UPTIME_GET_32, k_uptime_get_32, u32_t)
 	time = k_uptime_get_32();
     2e7a:	6030      	str	r0, [r6, #0]
 	if (time < last_time + BUTTON_DEBOUNCE_DELAY_MS) {
-    2e7c:	32fa      	adds	r2, #250	; 0xfa
-    2e7e:	4282      	cmp	r2, r0
-    2e80:	461f      	mov	r7, r3
-    2e82:	d901      	bls.n	2e88 <button_pressed+0x1c>
+    2e7c:	f502 72fa 	add.w	r2, r2, #500	; 0x1f4
+    2e80:	4282      	cmp	r2, r0
+    2e82:	461f      	mov	r7, r3
+    2e84:	d901      	bls.n	2e8a <button_pressed+0x1e>
 		last_time = time;
-    2e84:	6018      	str	r0, [r3, #0]
+    2e86:	6018      	str	r0, [r3, #0]
 }
-    2e86:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+    2e88:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
 	if (button_press_cnt == 0) {
-    2e88:	4c18      	ldr	r4, [pc, #96]	; (2eec <button_pressed+0x80>)
-    2e8a:	7822      	ldrb	r2, [r4, #0]
-    2e8c:	b922      	cbnz	r2, 2e98 <button_pressed+0x2c>
+    2e8a:	4c18      	ldr	r4, [pc, #96]	; (2eec <button_pressed+0x80>)
+    2e8c:	7822      	ldrb	r2, [r4, #0]
+    2e8e:	b922      	cbnz	r2, 2e9a <button_pressed+0x2e>
 K_SYSCALL_DECLARE3_VOID(K_SYSCALL_K_TIMER_START, k_timer_start, struct k_timer *, timer, s32_t, duration, s32_t, period)
-    2e8e:	f44f 717a 	mov.w	r1, #1000	; 0x3e8
-    2e92:	4817      	ldr	r0, [pc, #92]	; (2ef0 <button_pressed+0x84>)
-    2e94:	f019 fcd2 	bl	1c83c <z_impl_k_timer_start>
+    2e90:	f44f 717a 	mov.w	r1, #1000	; 0x3e8
+    2e94:	4816      	ldr	r0, [pc, #88]	; (2ef0 <button_pressed+0x84>)
+    2e96:	f019 fcd1 	bl	1c83c <z_impl_k_timer_start>
 	printk("button_press_cnt 0x%02x\n", button_press_cnt);
-    2e98:	7821      	ldrb	r1, [r4, #0]
-    2e9a:	4816      	ldr	r0, [pc, #88]	; (2ef4 <button_pressed+0x88>)
-    2e9c:	f01a f98a 	bl	1d1b4 <printk>
+    2e9a:	7821      	ldrb	r1, [r4, #0]
+    2e9c:	4815      	ldr	r0, [pc, #84]	; (2ef4 <button_pressed+0x88>)
+    2e9e:	f01a f989 	bl	1d1b4 <printk>
 	button_press_cnt++;
-    2ea0:	7823      	ldrb	r3, [r4, #0]
+    2ea2:	7823      	ldrb	r3, [r4, #0]
 	switch (pin_pos) {
-    2ea2:	f5b5 4f80 	cmp.w	r5, #16384	; 0x4000
+    2ea4:	f5b5 4f80 	cmp.w	r5, #16384	; 0x4000
 	button_press_cnt++;
-    2ea6:	f103 0301 	add.w	r3, r3, #1
-    2eaa:	7023      	strb	r3, [r4, #0]
+    2ea8:	f103 0301 	add.w	r3, r3, #1
+    2eac:	7023      	strb	r3, [r4, #0]
 	switch (pin_pos) {
-    2eac:	d011      	beq.n	2ed2 <button_pressed+0x66>
-    2eae:	d808      	bhi.n	2ec2 <button_pressed+0x56>
-    2eb0:	f5b5 5f00 	cmp.w	r5, #8192	; 0x2000
-    2eb4:	d003      	beq.n	2ebe <button_pressed+0x52>
+    2eae:	d011      	beq.n	2ed4 <button_pressed+0x68>
+    2eb0:	d808      	bhi.n	2ec4 <button_pressed+0x58>
+    2eb2:	f5b5 5f00 	cmp.w	r5, #8192	; 0x2000
+    2eb6:	d003      	beq.n	2ec0 <button_pressed+0x54>
 	printk("No match for GPIO pin 0x%08x\n", pin_pos);
-    2eb6:	4629      	mov	r1, r5
-    2eb8:	480f      	ldr	r0, [pc, #60]	; (2ef8 <button_pressed+0x8c>)
-    2eba:	f01a f97b 	bl	1d1b4 <printk>
+    2eb8:	4629      	mov	r1, r5
+    2eba:	480f      	ldr	r0, [pc, #60]	; (2ef8 <button_pressed+0x8c>)
+    2ebc:	f01a f97a 	bl	1d1b4 <printk>
 	case BIT(SW0_GPIO_PIN): return 0;
-    2ebe:	2300      	movs	r3, #0
-    2ec0:	e008      	b.n	2ed4 <button_pressed+0x68>
+    2ec0:	2300      	movs	r3, #0
+    2ec2:	e008      	b.n	2ed6 <button_pressed+0x6a>
 	switch (pin_pos) {
-    2ec2:	f5b5 4f00 	cmp.w	r5, #32768	; 0x8000
-    2ec6:	d00a      	beq.n	2ede <button_pressed+0x72>
-    2ec8:	f5b5 3f80 	cmp.w	r5, #65536	; 0x10000
-    2ecc:	d1f3      	bne.n	2eb6 <button_pressed+0x4a>
+    2ec4:	f5b5 4f00 	cmp.w	r5, #32768	; 0x8000
+    2ec8:	d00a      	beq.n	2ee0 <button_pressed+0x74>
+    2eca:	f5b5 3f80 	cmp.w	r5, #65536	; 0x10000
+    2ece:	d1f3      	bne.n	2eb8 <button_pressed+0x4c>
 	case BIT(SW3_GPIO_PIN): return 3;
-    2ece:	2303      	movs	r3, #3
-    2ed0:	e000      	b.n	2ed4 <button_pressed+0x68>
+    2ed0:	2303      	movs	r3, #3
+    2ed2:	e000      	b.n	2ed6 <button_pressed+0x6a>
 	case BIT(SW1_GPIO_PIN): return 1;
-    2ed2:	2301      	movs	r3, #1
+    2ed4:	2301      	movs	r3, #1
 	sw.sw_num = pin_to_sw(pin_pos);
-    2ed4:	4a09      	ldr	r2, [pc, #36]	; (2efc <button_pressed+0x90>)
-    2ed6:	7013      	strb	r3, [r2, #0]
+    2ed6:	4a09      	ldr	r2, [pc, #36]	; (2efc <button_pressed+0x90>)
+    2ed8:	7013      	strb	r3, [r2, #0]
 	last_time = time;
-    2ed8:	6833      	ldr	r3, [r6, #0]
-    2eda:	603b      	str	r3, [r7, #0]
-    2edc:	e7d3      	b.n	2e86 <button_pressed+0x1a>
+    2eda:	6833      	ldr	r3, [r6, #0]
+    2edc:	603b      	str	r3, [r7, #0]
+    2ede:	e7d3      	b.n	2e88 <button_pressed+0x1c>
 	case BIT(SW2_GPIO_PIN): return 2;
-    2ede:	2302      	movs	r3, #2
-    2ee0:	e7f8      	b.n	2ed4 <button_pressed+0x68>
-    2ee2:	bf00      	nop
+    2ee0:	2302      	movs	r3, #2
+    2ee2:	e7f8      	b.n	2ed6 <button_pressed+0x6a>
     2ee4:	20000270 	.word	0x20000270
     2ee8:	200002b4 	.word	0x200002b4
     2eec:	20001d4c 	.word	0x20001d4c
@@ -6035,7 +6032,7 @@ K_SYSCALL_DECLARE3_VOID(K_SYSCALL_K_TIMER_START, k_timer_start, struct k_timer *
     2f0a:	f1dc 0200 	rsbs	r2, ip, #0
     2f0e:	eb42 020c 	adc.w	r2, r2, ip
     2f12:	f800 2c0f 	strb.w	r2, [r0, #-15]
-	printk("button_press_cnt 0x%02x onoff_state 0x%02x\n",
+	printk("button_press_cnt 0x%02x onoff_state 0x%02x\n", button_press_cnt, button_sw->onoff_state);
     2f16:	480e      	ldr	r0, [pc, #56]	; (2f50 <button_cnt_timer+0x50>)
     2f18:	f01a f94c 	bl	1d1b4 <printk>
 	button_press_cnt = 0U;
@@ -6114,14 +6111,12 @@ static inline void k_work_submit_to_queue(struct k_work_q *work_q,
     2f8c:	2100      	movs	r1, #0
     2f8e:	095b      	lsrs	r3, r3, #5
     2f90:	47b8      	blx	r7
-	if (onoff_state->previous != onoff_state->current &&
+	if (onoff_state->previous != onoff_state->current && model->pub->addr != BT_MESH_ADDR_UNASSIGNED)
     2f92:	7861      	ldrb	r1, [r4, #1]
     2f94:	7822      	ldrb	r2, [r4, #0]
     2f96:	4291      	cmp	r1, r2
     2f98:	d01a      	beq.n	2fd0 <gen_onoff_set_unack+0x74>
-	    model->pub->addr != BT_MESH_ADDR_UNASSIGNED) {
     2f9a:	68ab      	ldr	r3, [r5, #8]
-	if (onoff_state->previous != onoff_state->current &&
     2f9c:	889b      	ldrh	r3, [r3, #4]
     2f9e:	b1bb      	cbz	r3, 2fd0 <gen_onoff_set_unack+0x74>
 		printk("publish last 0x%02x cur 0x%02x\n",
@@ -6160,20 +6155,20 @@ static inline void k_work_submit_to_queue(struct k_work_q *work_q,
 00002fe0 <button_pressed_worker>:
 {
     2fe0:	b570      	push	{r4, r5, r6, lr}
-	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) {
+	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) 
     2fe2:	4a24      	ldr	r2, [pc, #144]	; (3074 <button_pressed_worker+0x94>)
 	u8_t sw_idx = sw->sw_num;
     2fe4:	f810 3c04 	ldrb.w	r3, [r0, #-4]
-	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) {
+	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) 
     2fe8:	8812      	ldrh	r2, [r2, #0]
 {
     2fea:	b088      	sub	sp, #32
     2fec:	4605      	mov	r5, r0
-	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) {
+	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) 
     2fee:	b9d2      	cbnz	r2, 3026 <button_pressed_worker+0x46>
 	mod_srv = mod_srv_sw[sw_idx];
     2ff0:	4921      	ldr	r1, [pc, #132]	; (3078 <button_pressed_worker+0x98>)
-		struct bt_mesh_msg_ctx ctx = {
+		struct bt_mesh_msg_ctx ctx = {.addr = sw_idx + primary_addr,};
     2ff2:	f8ad 2010 	strh.w	r2, [sp, #16]
 	mod_srv = mod_srv_sw[sw_idx];
     2ff6:	f851 4023 	ldr.w	r4, [r1, r3, lsl #2]
@@ -6185,9 +6180,8 @@ static inline void k_work_submit_to_queue(struct k_work_q *work_q,
 		net_buf_simple_add_u8(&msg, sw->onoff_state);
     3006:	a805      	add	r0, sp, #20
     3008:	f815 1c03 	ldrb.w	r1, [r5, #-3]
-		struct bt_mesh_msg_ctx ctx = {
+		struct bt_mesh_msg_ctx ctx = {.addr = sw_idx + primary_addr,};
     300c:	e9cd 2202 	strd	r2, r2, [sp, #8]
-			.addr = sw_idx + primary_addr,
     3010:	f8ad 300c 	strh.w	r3, [sp, #12]
 		net_buf_simple_add_u8(&msg, sw->onoff_state);
     3014:	f01f fac8 	bl	225a8 <net_buf_simple_add_u8>
@@ -6204,15 +6198,15 @@ static inline void k_work_submit_to_queue(struct k_work_q *work_q,
     3028:	f852 6023 	ldr.w	r6, [r2, r3, lsl #2]
 	pub_cli = mod_cli->pub;
     302c:	68b4      	ldr	r4, [r6, #8]
-	if (pub_cli->addr == BT_MESH_ADDR_UNASSIGNED) {
+	if (pub_cli->addr == BT_MESH_ADDR_UNASSIGNED) { return; }
     302e:	88a1      	ldrh	r1, [r4, #4]
     3030:	2900      	cmp	r1, #0
     3032:	d0f6      	beq.n	3022 <button_pressed_worker+0x42>
-	printk("publish to 0x%04x onoff 0x%04x sw_idx 0x%04x\n",
+	printk("publish to 0x%04x onoff 0x%04x sw_idx 0x%04x\n", pub_cli->addr, sw->onoff_state, sw_idx);
     3034:	f810 2c03 	ldrb.w	r2, [r0, #-3]
     3038:	4811      	ldr	r0, [pc, #68]	; (3080 <button_pressed_worker+0xa0>)
     303a:	f01a f8bb 	bl	1d1b4 <printk>
-	bt_mesh_model_msg_init(pub_cli->msg,
+	bt_mesh_model_msg_init(pub_cli->msg, BT_MESH_MODEL_OP_GEN_ONOFF_SET);
     303e:	f248 2102 	movw	r1, #33282	; 0x8202
     3042:	6920      	ldr	r0, [r4, #16]
     3044:	f01e f8c9 	bl	211da <bt_mesh_model_msg_init>
@@ -6230,11 +6224,10 @@ static inline void k_work_submit_to_queue(struct k_work_q *work_q,
 	err = bt_mesh_model_publish(mod_cli);
     3060:	4630      	mov	r0, r6
     3062:	f00b fc91 	bl	e988 <bt_mesh_model_publish>
-	if (err) {
+	if (err) { printk("bt_mesh_model_publish err %d\n", err);}
     3066:	4601      	mov	r1, r0
     3068:	2800      	cmp	r0, #0
     306a:	d0da      	beq.n	3022 <button_pressed_worker+0x42>
-		printk("bt_mesh_model_publish err %d\n", err);
     306c:	4806      	ldr	r0, [pc, #24]	; (3088 <button_pressed_worker+0xa8>)
     306e:	f01a f8a1 	bl	1d1b4 <printk>
     3072:	e7d6      	b.n	3022 <button_pressed_worker+0x42>
@@ -6290,14 +6283,13 @@ K_SYSCALL_DECLARE1(K_SYSCALL_DEVICE_GET_BINDING, device_get_binding, struct devi
     30c2:	f018 faf9 	bl	1b6b8 <z_impl_device_get_binding>
 	onoff_state[dev].led_device = device_get_binding(port);
     30c6:	eb04 04c6 	add.w	r4, r4, r6, lsl #3
-	gpio_pin_configure(onoff_state[dev].led_device,
+	gpio_pin_configure(onoff_state[dev].led_device, pin_num, GPIO_DIR_OUT | GPIO_PUD_PULL_UP);
     30ca:	4629      	mov	r1, r5
 	onoff_state[dev].led_device = device_get_binding(port);
     30cc:	6060      	str	r0, [r4, #4]
-	gpio_pin_configure(onoff_state[dev].led_device,
+	gpio_pin_configure(onoff_state[dev].led_device, pin_num, GPIO_DIR_OUT | GPIO_PUD_PULL_UP);
     30ce:	f240 1201 	movw	r2, #257	; 0x101
     30d2:	f019 fcbf 	bl	1ca54 <gpio_pin_configure>
-			   pin_num, GPIO_DIR_OUT | GPIO_PUD_PULL_UP);
 	gpio_pin_write(onoff_state[dev].led_device, pin_num, 1);
     30d6:	6860      	ldr	r0, [r4, #4]
     30d8:	6843      	ldr	r3, [r0, #4]
