@@ -345,8 +345,8 @@ static void gen_onoff_set_unack(struct bt_mesh_model *model,
 	 * Only publish if there is an assigned address
 	 */
 
-	if (onoff_state->previous != onoff_state->current &&
-	    model->pub->addr != BT_MESH_ADDR_UNASSIGNED) {
+	if (onoff_state->previous != onoff_state->current && model->pub->addr != BT_MESH_ADDR_UNASSIGNED)
+	{
 		printk("publish last 0x%02x cur 0x%02x\n",
 		       onoff_state->previous, onoff_state->current);
 		onoff_state->previous = onoff_state->current;
@@ -360,23 +360,16 @@ static void gen_onoff_set_unack(struct bt_mesh_model *model,
 	}
 }
 
-static void gen_onoff_set(struct bt_mesh_model *model,
-			  struct bt_mesh_msg_ctx *ctx,
-			  struct net_buf_simple *buf)
+static void gen_onoff_set(struct bt_mesh_model *model, struct bt_mesh_msg_ctx *ctx, struct net_buf_simple *buf)
 {
 	printk("gen_onoff_set\n");
-
 	gen_onoff_set_unack(model, ctx, buf);
 	gen_onoff_get(model, ctx, buf);
 }
 
-static void gen_onoff_status(struct bt_mesh_model *model,
-			     struct bt_mesh_msg_ctx *ctx,
-			     struct net_buf_simple *buf)
+static void gen_onoff_status(struct bt_mesh_model *model, struct bt_mesh_msg_ctx *ctx, struct net_buf_simple *buf)
 {
-	u8_t	state;
-
-	state = net_buf_simple_pull_u8(buf);
+	u8_t	state = net_buf_simple_pull_u8(buf);
 
 	printk("Node 0x%04x OnOff status from 0x%04x with state 0x%02x\n",
 	       bt_mesh_model_elem(model)->addr, ctx->addr, state);
@@ -396,8 +389,7 @@ static int output_string(const char *str)
 
 static void prov_complete(u16_t net_idx, u16_t addr)
 {
-	printk("provisioning complete for net_idx 0x%04x addr 0x%04x\n",
-	       net_idx, addr);
+	printk("provisioning complete for net_idx 0x%04x addr 0x%04x\n", net_idx, addr);
 	primary_addr = addr;
 	primary_net_idx = net_idx;
 }
@@ -409,7 +401,7 @@ static void prov_reset(void)
 
 static u8_t dev_uuid[16] = { 0xdd, 0xdd };
 
-#define BUTTON_DEBOUNCE_DELAY_MS 250
+#define BUTTON_DEBOUNCE_DELAY_MS 500
 
 /*
  * Map GPIO pins to button number
@@ -429,8 +421,7 @@ static uint8_t pin_to_sw(uint32_t pin_pos)
 	return 0;
 }
 
-static void button_pressed(struct device *dev, struct gpio_callback *cb,
-			   u32_t pin_pos)
+static void button_pressed(struct device *dev, struct gpio_callback *cb, u32_t pin_pos)
 {
 	/*
 	 * One button press within a 1 second interval sends an on message
@@ -447,6 +438,7 @@ static void button_pressed(struct device *dev, struct gpio_callback *cb,
 
 	if (button_press_cnt == 0) {
 		k_timer_start(&sw.button_timer, K_SECONDS(1), 0);
+		// printk("button_press_cnt 0x%01x - led ON\n", button_press_cnt);
 	}
 
 	printk("button_press_cnt 0x%02x\n", button_press_cnt);
@@ -469,8 +461,9 @@ static void button_cnt_timer(struct k_timer *work)
 	struct sw *button_sw = CONTAINER_OF(work, struct sw, button_timer);
 
 	button_sw->onoff_state = button_press_cnt == 1 ? 1 : 0;
-	printk("button_press_cnt 0x%02x onoff_state 0x%02x\n",
-	       button_press_cnt, button_sw->onoff_state);
+	// printk("button_press_cnt = 0x%02x - onoff_state is OFF\n",
+	//        button_press_cnt, button_sw->onoff_state);
+	printk("button_press_cnt 0x%02x onoff_state 0x%02x\n", button_press_cnt, button_sw->onoff_state);
 	button_press_cnt = 0U;
 	k_work_submit(&sw.button_work);
 }
@@ -503,11 +496,10 @@ static void button_pressed_worker(struct k_work *work)
 	 * address or a group to which the led is subscribed.
 	 */
 
-	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) {
+	if (primary_addr == BT_MESH_ADDR_UNASSIGNED) 
+	{
 		NET_BUF_SIMPLE_DEFINE(msg, 1);
-		struct bt_mesh_msg_ctx ctx = {
-			.addr = sw_idx + primary_addr,
-		};
+		struct bt_mesh_msg_ctx ctx = {.addr = sw_idx + primary_addr,};
 
 		/* This is a dummy message sufficient
 		 * for the led server
@@ -518,20 +510,14 @@ static void button_pressed_worker(struct k_work *work)
 		return;
 	}
 
-	if (pub_cli->addr == BT_MESH_ADDR_UNASSIGNED) {
-		return;
-	}
+	if (pub_cli->addr == BT_MESH_ADDR_UNASSIGNED) { return; }
 
-	printk("publish to 0x%04x onoff 0x%04x sw_idx 0x%04x\n",
-	       pub_cli->addr, sw->onoff_state, sw_idx);
-	bt_mesh_model_msg_init(pub_cli->msg,
-			       BT_MESH_MODEL_OP_GEN_ONOFF_SET);
+	printk("publish to 0x%04x onoff 0x%04x sw_idx 0x%04x\n", pub_cli->addr, sw->onoff_state, sw_idx);
+	bt_mesh_model_msg_init(pub_cli->msg, BT_MESH_MODEL_OP_GEN_ONOFF_SET);
 	net_buf_simple_add_u8(pub_cli->msg, sw->onoff_state);
 	net_buf_simple_add_u8(pub_cli->msg, trans_id++);
 	err = bt_mesh_model_publish(mod_cli);
-	if (err) {
-		printk("bt_mesh_model_publish err %d\n", err);
-	}
+	if (err) { printk("bt_mesh_model_publish err %d\n", err);}
 }
 
 /* Disable OOB security for SILabs Android app */
@@ -560,7 +546,8 @@ static void bt_ready(int err)
 {
 	struct bt_le_oob oob;
 
-	if (err) {
+	if (err) 
+	{
 		printk("Bluetooth init failed (err %d)\n", err);
 		return;
 	}
@@ -568,7 +555,8 @@ static void bt_ready(int err)
 	printk("Bluetooth initialized\n");
 
 	err = bt_mesh_init(&prov, &comp);
-	if (err) {
+	if (err) 
+	{
 		printk("Initializing mesh failed (err %d)\n", err);
 		return;
 	}
@@ -592,8 +580,7 @@ static void bt_ready(int err)
 void init_led(u8_t dev, const char *port, u32_t pin_num)
 {
 	onoff_state[dev].led_device = device_get_binding(port);
-	gpio_pin_configure(onoff_state[dev].led_device,
-			   pin_num, GPIO_DIR_OUT | GPIO_PUD_PULL_UP);
+	gpio_pin_configure(onoff_state[dev].led_device, pin_num, GPIO_DIR_OUT | GPIO_PUD_PULL_UP);
 	gpio_pin_write(onoff_state[dev].led_device, pin_num, 1);
 }
 
