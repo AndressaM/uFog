@@ -14,27 +14,27 @@
   var db = firebase.database();
 
   // Cria os listeners dos dados no firebase
-  var tempRef = db.ref('temperature');
-  var umidRef = db.ref('humidity');
-  var presenceRef = db.ref('presence');
+
   var lampRef = db.ref('lamp');
+  var fadeRef = db.ref('fade');
 
 
-  // Registra as funções que atualizam os gráficos e dados atuais da telemetria
-  tempRef.on('value', onNewData('currentTemp', 'tempLineChart' , 'Temperatura', 'C°'));
-  umidRef.on('value', onNewData('currentUmid', 'umidLineChart' , 'Umidade', '%'));
+  
+  
+ 
+  
+  
 
-
-  // Registrar função ao alterar valor de presença
-  presenceRef.on('value', function(snapshot){
+  // Registrar função ao alterar valor da intensidade
+  fadeRef.on('value', function(snapshot){
     var value = snapshot.val();
-    var el = document.getElementById('currentPresence')
-    if(value){
-      el.classList.add('green-text');
-    }else{
-      el.classList.remove('green-text');
-    }
+    var el = document.getElementById('currentFade')
+	el.innerText = value + ' ' + '%';
   });
+
+
+
+
 
   // Registrar função ao alterar valor da lampada
   var currentLampValue = false;
@@ -49,6 +49,8 @@
     currentLampValue = !!value;
   });
 
+
+
   // Registrar função de click no botão de lampada
   var btnLamp = document.getElementById('btn-lamp');
   btnLamp.addEventListener('click', function(evt){
@@ -56,6 +58,8 @@
   });
 
 })();
+
+
 
 
 // Retorna uma função que de acordo com as mudanças dos dados
@@ -77,6 +81,8 @@ function onNewData(currentValueEl, chartEl, label, metric){
     }
   }
 }
+
+
 
 // Constroi um gráfico de linha no elemento (el) com a descrição (label) e os
 // dados passados (data)
