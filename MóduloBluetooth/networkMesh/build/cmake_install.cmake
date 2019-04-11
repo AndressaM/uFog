@@ -1,4 +1,4 @@
-# Install script for directory: /home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff_level_lighting_vnd_app
+# Install script for directory: /home/horacio/Documentos/uFog/MóduloBluetooth/networkMesh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff_level_lighting_vnd_app/build/zephyr/cmake_install.cmake")
+  include("/home/horacio/Documentos/uFog/MóduloBluetooth/networkMesh/build/zephyr/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff_level_lighting_vnd_app/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/horacio/Documentos/uFog/MóduloBluetooth/networkMesh/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

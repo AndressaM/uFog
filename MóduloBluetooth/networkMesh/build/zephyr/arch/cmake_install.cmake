@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff_level_lighting_vnd_app/build/zephyr/arch/common/cmake_install.cmake")
-  include("/home/horacio/zephyrproject/zephyr/samples/boards/nrf52/mesh/onoff_level_lighting_vnd_app/build/zephyr/arch/arch/arm/cmake_install.cmake")
+  include("/home/horacio/Documentos/uFog/MóduloBluetooth/networkMesh/build/zephyr/arch/common/cmake_install.cmake")
+  include("/home/horacio/Documentos/uFog/MóduloBluetooth/networkMesh/build/zephyr/arch/arch/arm/cmake_install.cmake")
 
 endif()
 

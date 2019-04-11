@@ -5,25 +5,41 @@ set(ENV{ZEPHYR_TOOLCHAIN_VARIANT} zephyr)
 set(ENV{ZEPHYR_SDK_INSTALL_DIR} /opt/zephyr-sdk)
 
 set(BOARD nrf52_pca10040)
-
-# set(QEMU_EXTRA_FLAGS -s)
-
 include($ENV{ZEPHYR_BASE}/cmake/app/boilerplate.cmake NO_POLICY_SCOPE)
-project(onoff_level_lighting_vnd_app)
+project(networkMesh)
 
-target_sources(app PRIVATE
-	       src/main.c
-	       src/app_gpio.c
-	       src/storage.c
-	       src/mesh/ble_mesh.c
-	       src/mesh/device_composition.c
-	       src/mesh/no_transition_work_handler.c
-	       src/mesh/publisher.c
-	       src/mesh/state_binding.c
-	       src/mesh/transition.c
-	       )
+# Generate version file
+include(build.version.cmake NO_POLICY_SCOPE)
 
-zephyr_include_directories(
-	src/
-	src/mesh
-)
+# Schedule a new version file generation after every build
+add_custom_command(
+    TARGET app
+    POST_BUILD
+    COMMAND "${CMAKE_COMMAND}"
+    -DPROJECT_SOURCE_DIR=${PROJECT_SOURCE_DIR}
+    -DPROJECT_BINARY_DIR=${PROJECT_BINARY_DIR}
+    -P ${PROJECT_SOURCE_DIR}/build.version.cmake
+    )
+
+list(APPEND HEADERS
+    "${PROJECT_BINARY_DIR}/include/generated"
+    "${PROJECT_BINARY_DIR}/zephyr/include/generated"
+    "${PROJECT_SOURCE_DIR}/include"
+    )
+
+list(APPEND SOURCES
+    "${PROJECT_SOURCE_DIR}/src/main.c"
+    "${PROJECT_SOURCE_DIR}/src/app_gpio.c"
+    "${PROJECT_SOURCE_DIR}/src/ble_mesh.c"
+    "${PROJECT_SOURCE_DIR}/src/device_composition.c"
+	"${PROJECT_SOURCE_DIR}/src/no_transition_work_handler.c"
+	"${PROJECT_SOURCE_DIR}/src/publisher.c"
+	"${PROJECT_SOURCE_DIR}/src/state_binding.c"
+	"${PROJECT_SOURCE_DIR}/src/storage.c"
+	"${PROJECT_SOURCE_DIR}/src/transition.c"
+   	"${PROJECT_SOURCE_DIR}/src/ic_version.c"
+
+    )
+
+include_directories(${HEADERS})
+target_sources(app PRIVATE ${SOURCES})
