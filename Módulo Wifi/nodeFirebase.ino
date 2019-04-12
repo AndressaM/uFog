@@ -2,17 +2,21 @@
 #include <FirebaseArduino.h>
 #include <ESP8266WiFi.h>
 
-
 // Set these to run example.
 #define WIFI_SSID "gil"
 #define WIFI_PASSWORD "chico1718"
+
+//#define WIFI_SSID "UFAL"
+//#define WIFI_PASSWORD NULL
 
 #define FIREBASE_HOST "ufog-a1af1.firebaseio.com"
 #define FIREBASE_AUTH "sOb85BW72hephLNGtxITVY3qptEX1wWB5yGPmkh0"
 
 int led = 0;
 double brightness = 0.0;
-double fade = 0.0;
+int fade = 0;
+int num_lamp=0;
+String incomingByte = "" ;  
 
 void setup() {
   Serial.begin(9600);
@@ -29,7 +33,7 @@ void setup() {
   Serial.println(WiFi.localIP());
   
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
-  Firebase.stream("/lamp");
+  Firebase.stream("/lamp01");
     
 }
 
@@ -47,8 +51,8 @@ void loop() {
      eventType.toLowerCase();
 
     
-    led = Firebase.getBool("/lamp");
-    fade = Firebase.getInt("/fade");
+    led = Firebase.getBool("lamp01/lamp");
+    fade = Firebase.getInt("lamp01/fade");
      
      Serial.print("event: ");
      Serial.println(eventType);
@@ -57,28 +61,45 @@ void loop() {
        Serial.println(event.getString("data"));
        String path = event.getString("path");
        String data = event.getString("data");
-       onLed(2,led);
-       if(led == 1)
-       {
-        fadeLed(2, fade);
-       }
+       onLed(2,led, fade);
+  
      }
 
-  }   
-   
-    
-
+  }  
+  if(Serial.available())
+  {
+     //L21100
+     incomingByte = Serial.readString();
+     String adressLamp = incomingByte.substring(1,2);
+     Serial.println(adressLamp);
+     adressLamp = "lamp0"+adressLamp;
+     Serial.println(adressLamp);
+     bool lampBool = false;
+     if(incomingByte.substring(2,3).toInt()==1)
+     {
+        lampBool = true;
+     }
+     String namePath = adressLamp;
+     Firebase.setInt(adressLamp+"/fade",incomingByte.substring(3).toInt());
+     Firebase.setBool(adressLamp+"/lamp",lampBool);
+      if (Firebase.failed()) {
+          Serial.print("setting add Lamp failed:");
+          Serial.println(Firebase.error());  
+          return;
+      }
+     
+  }
 }
 
-void onLed(int led , int ledstatus){
-    if(ledstatus == 0){
+void onLed(int led , int ledstatus,int fade){
+    if(ledstatus == 0 || fade == 0){
       digitalWrite(led ,HIGH);
     }
-    else if(ledstatus == 1){
+    else if(ledstatus == 1 || fade>0){
       digitalWrite(led ,LOW);
     }
-}
 
+}
 void fadeLed(int led , int pcntLed)
 {
   brightness = 255*(pcntLed)/100.0; 
