@@ -2,12 +2,10 @@
 #include <FirebaseArduino.h>
 #include <ESP8266WiFi.h>
 
-// Set these to run example.
-#define WIFI_SSID "gil"
-#define WIFI_PASSWORD "chico1718"
 
-//#define WIFI_SSID "UFAL"
-//#define WIFI_PASSWORD NULL
+
+#define WIFI_SSID "UFAL"
+#define WIFI_PASSWORD NULL
 
 #define FIREBASE_HOST "ufog-a1af1.firebaseio.com"
 #define FIREBASE_AUTH "sOb85BW72hephLNGtxITVY3qptEX1wWB5yGPmkh0"
