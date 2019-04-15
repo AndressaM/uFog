@@ -2,8 +2,6 @@
 #include <FirebaseArduino.h>
 #include <ESP8266WiFi.h>
 
-
-
 #define WIFI_SSID "UFAL"
 #define WIFI_PASSWORD NULL
 
@@ -14,18 +12,17 @@
 int led = 0;
 double brightness = 0.0;
 int fade = 0;
-int num_lamp=0;
 String incomingByte = "" ;  
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode (2, OUTPUT);
   // connect to wifi.
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("connecting");
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print(".");
-    delay(500);
+    delay(1000);
   }
   Serial.println();
   Serial.print("connected: ");
