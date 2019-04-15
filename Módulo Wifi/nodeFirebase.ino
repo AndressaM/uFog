@@ -9,6 +9,7 @@
 
 #define FIREBASE_HOST "ufog-a1af1.firebaseio.com"
 #define FIREBASE_AUTH "sOb85BW72hephLNGtxITVY3qptEX1wWB5yGPmkh0"
+//in your pc or cellphone put: ufog-a1af1.firebaseapp.com
 
 int led = 0;
 double brightness = 0.0;
