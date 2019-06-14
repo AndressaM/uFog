@@ -2,31 +2,27 @@
 #include <FirebaseArduino.h>
 #include <ESP8266WiFi.h>
 
-// Set these to run example.
-#define WIFI_SSID "gil"
-#define WIFI_PASSWORD "chico1718"
-
-//#define WIFI_SSID "UFAL"
-//#define WIFI_PASSWORD NULL
+#define WIFI_SSID "UFAL"
+#define WIFI_PASSWORD NULL
 
 #define FIREBASE_HOST "ufog-a1af1.firebaseio.com"
 #define FIREBASE_AUTH "sOb85BW72hephLNGtxITVY3qptEX1wWB5yGPmkh0"
+//in your pc or cellphone put: ufog-a1af1.firebaseapp.com
 
 int led = 0;
 double brightness = 0.0;
 int fade = 0;
-int num_lamp=0;
 String incomingByte = "" ;  
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode (2, OUTPUT);
   // connect to wifi.
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("connecting");
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print(".");
-    delay(500);
+    delay(1000);
   }
   Serial.println();
   Serial.print("connected: ");
